@@ -1,0 +1,69 @@
+.dragicon {
+	-fx-background-color: lightgray;
+	-fx-background-radius: 10;
+	-fx-border-width: 2;
+	-fx-border-radius: 10;
+	-fx-border-color: black	
+}
+
+.dragicon:hover {
+    -fx-background-color:
+    rgba(220, 220, 220, 1);
+}
+
+.selected {
+    -fx-border-color: red;
+}
+
+.icon-blue {
+	-fx-background-color: blue;
+}
+
+.icon-red {
+	-fx-background-color: red;
+}
+
+.icon-green {
+	-fx-background-color: green;
+}
+
+.icon-black {
+	-fx-background-color: black;
+}
+
+.icon-grey {
+	-fx-background-color: grey;
+}
+
+.icon-yellow {
+	-fx-background-color: yellow;
+}
+
+.icon-purple {
+	-fx-background-color: purple;
+}
+
+.node-overlay {
+    -fx-background-radius: 10 10 0 0;
+    -fx-background-color:
+    linear-gradient(to bottom, rgba(255,255,255,0.7) 15%, rgba(50,100,150,0.45) 100%);
+    
+}
+
+.paneMove:hover {
+    -fx-background-radius: 0 0 0 10;
+    -fx-background-color:
+    rgba(255, 255, 255, 0.5);
+}
+
+.paneConnect:hover {
+    -fx-background-radius: 0 0 10 0;
+    -fx-background-color:
+    rgba(255, 255, 255, 0.5);
+}
+
+
+.paneComponents .tab-header-background{
+	-fx-background-color:
+    linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(150,150,150,0.45) 100%);
+}

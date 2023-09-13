@@ -1,0 +1,7 @@
+start_data:01.01.2020
+warm_up_date:01.01.2020
+end_date:31.12.2020
+thread_pool_size:1
+seed:0
+replications:1
+experiment_file:s1short.csv

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+
+<fx:root fx:id="root" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" type="HBox" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ComboBox fx:id="cb" prefWidth="90.0" />
+      <TextField fx:id="tf" alignment="CENTER_RIGHT" prefWidth="50.0" text="0" />
+   </children>
+   <padding>
+      <Insets bottom="2.0" left="5.0" right="5.0" top="2.0" />
+   </padding>
+</fx:root>

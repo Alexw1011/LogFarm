@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="paneRoot" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.logfarm.gui.GUIController">
+   <children>
+      <VBox prefHeight="600.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <children>
+          <MenuBar VBox.vgrow="NEVER">
+            <menus>
+              <Menu mnemonicParsing="false" text="File">
+                <items>
+                  <MenuItem mnemonicParsing="false" text="New" />
+                  <MenuItem mnemonicParsing="false" text="Open…" />
+                  <Menu mnemonicParsing="false" text="Open Recent" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Close" />
+                  <MenuItem mnemonicParsing="false" text="Save" />
+                  <MenuItem mnemonicParsing="false" text="Save As…" />
+                  <MenuItem mnemonicParsing="false" text="Revert" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Preferences…" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Quit" />
+                </items>
+              </Menu>
+              <Menu mnemonicParsing="false" text="Edit">
+                <items>
+                  <MenuItem mnemonicParsing="false" text="Undo" />
+                  <MenuItem mnemonicParsing="false" text="Redo" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Cut" />
+                  <MenuItem mnemonicParsing="false" text="Copy" />
+                  <MenuItem mnemonicParsing="false" text="Paste" />
+                  <MenuItem mnemonicParsing="false" text="Delete" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Select All" />
+                  <MenuItem mnemonicParsing="false" text="Unselect All" />
+                </items>
+              </Menu>
+              <Menu mnemonicParsing="false" text="Help">
+                <items>
+                  <MenuItem mnemonicParsing="false" onAction="#aboutLogFarm" text="About LogFarm" />
+                </items>
+              </Menu>
+            </menus>
+          </MenuBar>
+          <SplitPane dividerPositions="0.2605633802816901" focusTraversable="true" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+            <items>
+                  <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab text="Blocks">
+                        <content>
+                              <VBox prefHeight="641.0" prefWidth="253.0">
+                                 <children>
+                                    <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Add Block to Model" textAlignment="CENTER">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets top="8.0" />
+                                       </VBox.margin>
+                                    </Label>
+                                    <HBox alignment="TOP_CENTER" maxWidth="1.7976931348623157E308" prefHeight="606.0" prefWidth="253.0" VBox.vgrow="ALWAYS">
+                                       <children>
+                                          <GridPane fx:id="gridAddBlocks" alignment="CENTER" HBox.hgrow="ALWAYS">
+                                            <columnConstraints>
+                                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                            </columnConstraints>
+                                            <rowConstraints>
+                                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                            </rowConstraints>
+                                             <HBox.margin>
+                                                <Insets bottom="120.0" left="40.0" right="40.0" />
+                                             </HBox.margin>
+                                          </GridPane>
+                                       </children>
+                                       <padding>
+                                          <Insets top="8.0" />
+                                       </padding>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                        </content>
+                      </Tab>
+                      <Tab onSelectionChanged="#tabParametrizeSelected" text="Parametrize">
+                        <content>
+                              <VBox prefHeight="641.0" prefWidth="253.0">
+                                 <children>
+                                    <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Parametrize" textAlignment="CENTER">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets top="8.0" />
+                                       </VBox.margin>
+                                    </Label>
+                                    <Label alignment="CENTER" layoutX="10.0" layoutY="18.0" maxWidth="1.7976931348623157E308" text="Select a Block" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets top="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <TabPane fx:id="tabPaneParametrize" prefWidth="253.0" styleClass="paneComponents" tabClosingPolicy="UNAVAILABLE">
+                                      <tabs>
+                                          <Tab fx:id="tabGeneral" onSelectionChanged="#tabGeneralSelected" text="Gen">
+                                            <content>
+                                              <AnchorPane minHeight="0.0" minWidth="0.0" prefWidth="200.0">
+                                                   <children>
+                                                      <VBox spacing="20.0" AnchorPane.leftAnchor="10.0">
+                                                         <children>
+                                                            <HBox alignment="CENTER" prefHeight="120.0" prefWidth="200.0">
+                                                               <children>
+                                                                  <GridPane>
+                                                                    <columnConstraints>
+                                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="160.0" />
+                                                                    </columnConstraints>
+                                                                    <rowConstraints>
+                                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                    </rowConstraints>
+                                                                     <children>
+                                                                        <Label text="Name" />
+                                                                        <Label text="Latitude" GridPane.rowIndex="1" />
+                                                                        <Label text="Longitude" GridPane.rowIndex="2" />
+                                                                        <TextField fx:id="tfName" alignment="CENTER_RIGHT" onKeyTyped="#changedName" GridPane.columnIndex="1" />
+                                                                        <TextField fx:id="tfLat" alignment="CENTER_RIGHT" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                                        <TextField fx:id="tfLon" alignment="CENTER_RIGHT" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                                     </children>
+                                                                     <HBox.margin>
+                                                                        <Insets top="20.0" />
+                                                                     </HBox.margin>
+                                                                  </GridPane>
+                                                               </children>
+                                                            </HBox>
+                                                            <HBox>
+                                                               <children>
+                                                                  <GridPane hgap="4.0" prefWidth="300.0">
+                                                                    <columnConstraints>
+                                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                    </columnConstraints>
+                                                                    <rowConstraints>
+                                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                    </rowConstraints>
+                                                                     <children>
+                                                                        <Label alignment="CENTER" text="Mon" textAlignment="CENTER" GridPane.halignment="CENTER" />
+                                                                        <Label alignment="CENTER" text="Tue" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
+                                                                        <Label alignment="CENTER" text="Wed" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" />
+                                                                        <Label alignment="CENTER" text="Thr" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" />
+                                                                        <Label alignment="CENTER" text="Fri" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" />
+                                                                        <Label alignment="CENTER" text="Sat" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.halignment="CENTER" />
+                                                                        <Label alignment="CENTER" text="Sun" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.halignment="CENTER" />
+                                                                        <TextField fx:id="tfMon" alignment="CENTER_RIGHT" GridPane.rowIndex="1" />
+                                                                        <TextField fx:id="tfTue" alignment="CENTER_RIGHT" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                                        <TextField fx:id="tfWed" alignment="CENTER_RIGHT" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                                                                        <TextField fx:id="tfThr" alignment="CENTER_RIGHT" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                                                                        <TextField fx:id="tfFri" alignment="CENTER_RIGHT" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                                                                        <TextField fx:id="tfSat" alignment="CENTER_RIGHT" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                                                                        <TextField fx:id="tfSun" alignment="CENTER_RIGHT" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                                                                     </children>
+                                                                  </GridPane>
+                                                               </children>
+                                                            </HBox>
+                                                            <HBox fx:id="hboxCustomerGroup" alignment="TOP_CENTER">
+                                                               <children>
+                                                                  <GridPane>
+                                                                     <columnConstraints>
+                                                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="160.0" />
+                                                                     </columnConstraints>
+                                                                     <rowConstraints>
+                                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                     </rowConstraints>
+                                                                     <children>
+                                                                        <Label text="No. of Customers" />
+                                                                        <Label text="Latitude Min." GridPane.rowIndex="1" />
+                                                                        <Label text="Latitude Max." GridPane.rowIndex="2" />
+                                                                        <TextField fx:id="tfNumberOfCustomers" alignment="CENTER_RIGHT" onKeyTyped="#changedName" GridPane.columnIndex="1" />
+                                                                        <TextField fx:id="tfLatMin" alignment="CENTER_RIGHT" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                                        <TextField fx:id="tfLatMax" alignment="CENTER_RIGHT" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                                        <Label text="Longitude Min." GridPane.rowIndex="3" />
+                                                                        <Label text="Longitude Max." GridPane.rowIndex="4" />
+                                                                        <TextField fx:id="tfLonMin" alignment="CENTER_RIGHT" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                                                        <TextField fx:id="tfLonMax" alignment="CENTER_RIGHT" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                                                     </children>
+                                                                  </GridPane>
+                                                               </children>
+                                                            </HBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </AnchorPane>
+                                            </content>
+                                          </Tab>
+                                        <Tab fx:id="tabProduction" onSelectionChanged="#tabProductionSelected" text="Prd">
+                                          <content>
+                                                <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" prefHeight="570.0" vbarPolicy="ALWAYS">
+                                                   <content>
+                                                      <HBox alignment="TOP_CENTER" fillHeight="false" prefWidth="340.0">
+                                                         <children>
+                                                            <VBox>
+                                                               <children>
+                                                                  <HBox alignment="CENTER">
+                                                                     <children>
+                                                                        <CheckBox fx:id="checkProductionComponent" alignment="CENTER" mnemonicParsing="false" onAction="#tabProductionSelected" text="Has Component" />
+                                                                     </children>
+                                                                  </HBox>
+                                                                  <HBox alignment="CENTER" prefWidth="200.0">
+                                                                     <children>
+                                                                        <VBox fx:id="vboxProduction" alignment="TOP_CENTER" HBox.hgrow="ALWAYS">
+                                                                           <children>
+                                                                              <VBox fx:id="vboxProductionEntries" />
+                                                                              <HBox alignment="CENTER" minHeight="-Infinity" prefHeight="64.0" prefWidth="317.0" spacing="8.0">
+                                                                                 <children>
+                                                                                    <Button mnemonicParsing="false" onAction="#addProductionProcess" prefHeight="30.0" text="Add" textAlignment="RIGHT">
+                                                                                       <graphic>
+                                                                                          <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                                                             <image>
+                                                                                                <Image url="@../icons/add.png" />
+                                                                                             </image>
+                                                                                          </ImageView>
+                                                                                       </graphic>
+                                                                                    </Button>
+                                                                                    <Button mnemonicParsing="false" onAction="#removeProductionProcess" prefHeight="30.0" text="Remove" textAlignment="RIGHT">
+                                                                                       <graphic>
+                                                                                          <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                                                             <image>
+                                                                                                <Image url="@../icons/remove.png" />
+                                                                                             </image>
+                                                                                          </ImageView>
+                                                                                       </graphic>
+                                                                                    </Button>
+                                                                                 </children>
+                                                                              </HBox>
+                                                                              <HBox alignment="CENTER" minHeight="-Infinity" prefHeight="30.0">
+                                                                                 <children>
+                                                                                    <CheckBox fx:id="cbProductionMalfunction" alignment="CENTER" mnemonicParsing="false" onAction="#toggledCbProductionMalfunction" text="Enable Malfunction" />
+                                                                                 </children>
+                                                                              </HBox>
+                                                                              <HBox fx:id="hboxProductionMalfunctionChance" alignment="CENTER" minHeight="-Infinity" prefHeight="40.0" prefWidth="200.0">
+                                                                                 <children>
+                                                                                    <GridPane>
+                                                                                      <columnConstraints>
+                                                                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                                      </columnConstraints>
+                                                                                      <rowConstraints>
+                                                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                                      </rowConstraints>
+                                                                                       <children>
+                                                                                          <Label text="Daily Chance" />
+                                                                                          <TextField fx:id="tfProductionMalfunctionChance" alignment="CENTER_RIGHT" onMouseClicked="#factorFieldClicked" text="0" GridPane.columnIndex="1" />
+                                                                                       </children>
+                                                                                    </GridPane>
+                                                                                 </children>
+                                                                              </HBox>
+                                                                              <HBox fx:id="hboxProductionMalfunctionDistribution" alignment="CENTER" minHeight="-Infinity" prefHeight="50.0" prefWidth="200.0">
+                                                                                 <children>
+                                                                                    <GridPane hgap="6.0">
+                                                                                       <columnConstraints>
+                                                                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="70.0" />
+                                                                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                                       </columnConstraints>
+                                                                                       <rowConstraints>
+                                                                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                                       </rowConstraints>
+                                                                                       <children>
+                                                                                          <Label text="Distribution" />
+                                                                                          <Label text="Mean Effectivenes" GridPane.columnIndex="1" />
+                                                                                          <Label text="Variance" GridPane.columnIndex="2" />
+                                                                                          <ComboBox fx:id="cbProductionMalfunctionDistribution" prefWidth="150.0" GridPane.rowIndex="1">
+                                                                                             <padding>
+                                                                                                <Insets right="4.0" />
+                                                                                             </padding>
+                                                                                          </ComboBox>
+                                                                                          <TextField fx:id="tfProductionMalfunctionParam1" alignment="CENTER_RIGHT" onMouseClicked="#factorFieldClicked" text="0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                                                          <TextField fx:id="tfProductionMalfunctionParam2" alignment="CENTER_RIGHT" onMouseClicked="#factorFieldClicked" text="0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                                                                                       </children>
+                                                                                       <padding>
+                                                                                          <Insets left="10.0" right="10.0" />
+                                                                                       </padding>
+                                                                                    </GridPane>
+                                                                                 </children>
+                                                                              </HBox>
+                                                                           </children>
+                                                                           <HBox.margin>
+                                                                              <Insets top="8.0" />
+                                                                           </HBox.margin>
+                                                                        </VBox>
+                                                                     </children>
+                                                                  </HBox>
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                         <padding>
+                                                            <Insets top="20.0" />
+                                                         </padding>
+                                                      </HBox>
+                                                   </content>
+                                                </ScrollPane>
+                                          </content>
+                                        </Tab>
+                                          <Tab fx:id="tabTransform" onSelectionChanged="#tabTransformSelected" text="Tra">
+                                            <content>
+                                                <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" vbarPolicy="ALWAYS">
+                                                   <content>
+                                                      <HBox alignment="TOP_CENTER" fillHeight="false" prefWidth="340.0">
+                                                         <children>
+                                                            <VBox>
+                                                               <children>
+                                                                  <HBox alignment="CENTER" fillHeight="false">
+                                                                     <children>
+                                                                        <CheckBox fx:id="checkTransformComponent" alignment="CENTER" mnemonicParsing="false" onAction="#tabTransformSelected" text="Has Component" />
+                                                                     </children>
+                                                                  </HBox>
+                                                                  <HBox alignment="CENTER" fillHeight="false" prefWidth="300.0">
+                                                                     <children>
+                                                                        <VBox fx:id="vboxTransform" alignment="TOP_CENTER" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                                                                           <children>
+                                                                              <VBox fx:id="vboxTransformationEntries" alignment="CENTER" />
+                                                                              <HBox alignment="CENTER" fillHeight="false" minHeight="-Infinity" prefHeight="64.0" prefWidth="400.0" spacing="8.0">
+                                                                                 <children>
+                                                                                    <Button mnemonicParsing="false" onAction="#addTransformationProcess" prefHeight="30.0" text="Add Process" textAlignment="RIGHT">
+                                                                                       <graphic>
+                                                                                          <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                                                             <image>
+                                                                                                <Image url="@../icons/add.png" />
+                                                                                             </image>
+                                                                                          </ImageView>
+                                                                                       </graphic>
+                                                                                    </Button>
+                                                                                    <Button mnemonicParsing="false" onAction="#removeTransformationProcess" prefHeight="30.0" text="Remove Process" textAlignment="RIGHT">
+                                                                                       <graphic>
+                                                                                          <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                                                             <image>
+                                                                                                <Image url="@../icons/remove.png" />
+                                                                                             </image>
+                                                                                          </ImageView>
+                                                                                       </graphic>
+                                                                                    </Button>
+                                                                                 </children>
+                                                                              </HBox>
+                                                                              <HBox alignment="CENTER" fillHeight="false" minHeight="-Infinity" prefHeight="30.0">
+                                                                                 <children>
+                                                                                    <CheckBox fx:id="cbTransformMalfunction" alignment="CENTER" mnemonicParsing="false" onAction="#toggledCbTransformMalfunction" text="Enable Malfunction" />
+                                                                                 </children>
+                                                                              </HBox>
+                                                                              <HBox fx:id="hboxTransformMalfunctionChance" alignment="CENTER" fillHeight="false" minHeight="-Infinity" prefHeight="40.0" prefWidth="200.0">
+                                                                                 <children>
+                                                                                    <GridPane>
+                                                                                       <columnConstraints>
+                                                                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                                       </columnConstraints>
+                                                                                       <rowConstraints>
+                                                                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                                       </rowConstraints>
+                                                                                       <children>
+                                                                                          <Label text="Daily Chance" />
+                                                                                          <TextField fx:id="tfTransformMalfunctionChance" alignment="CENTER_RIGHT" onMouseClicked="#factorFieldClicked" text="0" GridPane.columnIndex="1" />
+                                                                                       </children>
+                                                                                    </GridPane>
+                                                                                 </children>
+                                                                              </HBox>
+                                                                              <HBox fx:id="hboxTransformMalfunctionDistribution" alignment="CENTER" fillHeight="false" minHeight="-Infinity" prefHeight="50.0" prefWidth="200.0">
+                                                                                 <children>
+                                                                                    <GridPane hgap="6.0">
+                                                                                       <columnConstraints>
+                                                                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="150.0" />
+                                                                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="60.0" />
+                                                                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="60.0" />
+                                                                                       </columnConstraints>
+                                                                                       <rowConstraints>
+                                                                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                                       </rowConstraints>
+                                                                                       <children>
+                                                                                          <Label text="Distribution" />
+                                                                                          <Label text="Mean Effectivenes" GridPane.columnIndex="1" />
+                                                                                          <Label text="Variance" GridPane.columnIndex="2" />
+                                                                                          <ComboBox fx:id="cbTransformMalfunctionDistribution" prefWidth="150.0" GridPane.rowIndex="1">
+                                                                                             <padding>
+                                                                                                <Insets right="4.0" />
+                                                                                             </padding>
+                                                                                          </ComboBox>
+                                                                                          <TextField fx:id="tfTransformMalfunctionParam1" alignment="CENTER_RIGHT" onMouseClicked="#factorFieldClicked" text="0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                                                          <TextField fx:id="tfTransformMalfunctionParam2" alignment="CENTER_RIGHT" onMouseClicked="#factorFieldClicked" text="0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                                                                                       </children>
+                                                                                       <padding>
+                                                                                          <Insets left="10.0" right="10.0" />
+                                                                                       </padding>
+                                                                                    </GridPane>
+                                                                                 </children>
+                                                                              </HBox>
+                                                                           </children>
+                                                                           <HBox.margin>
+                                                                              <Insets top="8.0" />
+                                                                           </HBox.margin>
+                                                                        </VBox>
+                                                                     </children>
+                                                                  </HBox>
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                         <padding>
+                                                            <Insets top="20.0" />
+                                                         </padding>
+                                                      </HBox>
+                                                   </content>
+                                                </ScrollPane>
+                                            </content>
+                                          </Tab>
+                                        <Tab fx:id="tabSink" onSelectionChanged="#tabSinksSelected" text="Snk">
+                                          <content>
+                                                <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" vbarPolicy="ALWAYS">
+                                                   <content>
+                                                      <HBox alignment="TOP_CENTER" fillHeight="false" prefWidth="340.0">
+                                                         <children>
+                                                            <VBox alignment="TOP_CENTER">
+                                                               <children>
+                                                                  <CheckBox fx:id="checkSinkComponent" alignment="CENTER" mnemonicParsing="false" onAction="#tabSinksSelected" text="Has Component" />
+                                                                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="300.0">
+                                                                     <children>
+                                                                        <VBox fx:id="vboxSinks" alignment="TOP_CENTER" fillWidth="false" prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                                                                           <children>
+                                                                              <HBox alignment="CENTER" prefHeight="64.0" prefWidth="340.0" spacing="8.0">
+                                                                                 <children>
+                                                                                    <Button mnemonicParsing="false" onAction="#btnAddSinkAction" prefHeight="30.0" prefWidth="100.0" text="Add" textAlignment="RIGHT">
+                                                                                       <graphic>
+                                                                                          <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                                                             <image>
+                                                                                                <Image url="@../icons/add.png" />
+                                                                                             </image>
+                                                                                          </ImageView>
+                                                                                       </graphic>
+                                                                                    </Button>
+                                                                                    <Button mnemonicParsing="false" onAction="#btnRemoveSinkAction" prefHeight="30.0" prefWidth="100.0" text="Remove" textAlignment="RIGHT">
+                                                                                       <graphic>
+                                                                                          <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                                                             <image>
+                                                                                                <Image url="@../icons/remove.png" />
+                                                                                             </image>
+                                                                                          </ImageView>
+                                                                                       </graphic>
+                                                                                    </Button>
+                                                                                 </children>
+                                                                              </HBox>
+                                                                           </children>
+                                                                           <HBox.margin>
+                                                                              <Insets top="8.0" />
+                                                                           </HBox.margin>
+                                                                        </VBox>
+                                                                     </children>
+                                                                  </HBox>
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                         <padding>
+                                                            <Insets top="20.0" />
+                                                         </padding>
+                                                      </HBox>
+                                                   </content>
+                                                </ScrollPane>
+                                          </content>
+                                        </Tab>
+                                          <Tab fx:id="tabStorage" onSelectionChanged="#tabStorageSelected" text="Sto">
+                                            <content>
+                                                <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" vbarPolicy="ALWAYS">
+                                                   <content>
+                                                      <HBox alignment="TOP_CENTER" fillHeight="false" prefWidth="340.0">
+                                                         <children>
+                                                            <VBox alignment="TOP_CENTER">
+                                                               <children>
+                                                                  <CheckBox fx:id="checkStorageComponent" alignment="CENTER" mnemonicParsing="false" onAction="#tabStorageSelected" text="Has Component" />
+                                                                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                                                                     <children>
+                                                                        <VBox fx:id="vboxStorage" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+                                                                           <children>
+                                                                              <HBox alignment="CENTER" prefHeight="64.0" prefWidth="317.0" spacing="8.0">
+                                                                                 <children>
+                                                                                    <Button mnemonicParsing="false" onAction="#buttonStorageAdd" prefHeight="30.0" text="Add" textAlignment="RIGHT">
+                                                                                       <graphic>
+                                                                                          <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                                                             <image>
+                                                                                                <Image url="@../icons/add.png" />
+                                                                                             </image>
+                                                                                          </ImageView>
+                                                                                       </graphic>
+                                                                                    </Button>
+                                                                                    <Button mnemonicParsing="false" onAction="#buttonStorageRemove" prefHeight="30.0" text="Remove" textAlignment="RIGHT">
+                                                                                       <graphic>
+                                                                                          <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                                                             <image>
+                                                                                                <Image url="@../icons/remove.png" />
+                                                                                             </image>
+                                                                                          </ImageView>
+                                                                                       </graphic>
+                                                                                    </Button>
+                                                                                 </children>
+                                                                              </HBox>
+                                                                           </children>
+                                                                           <HBox.margin>
+                                                                              <Insets top="8.0" />
+                                                                           </HBox.margin>
+                                                                        </VBox>
+                                                                     </children>
+                                                                  </HBox>
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                         <padding>
+                                                            <Insets top="20.0" />
+                                                         </padding>
+                                                      </HBox>
+                                                   </content>
+                                                </ScrollPane>
+                                            </content>
+                                          </Tab>
+                                          <Tab fx:id="tabDistribution" onSelectionChanged="#tabDistributionSelected" text="Dis">
+                                            <content>
+                                                <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" vbarPolicy="ALWAYS">
+                                                   <content>
+                                                      <HBox alignment="TOP_CENTER" fillHeight="false" prefWidth="340.0">
+                                                         <children>
+                                                            <VBox alignment="TOP_CENTER">
+                                                               <children>
+                                                                  <CheckBox fx:id="checkDistributionComponent" alignment="CENTER" mnemonicParsing="false" onAction="#tabDistributionSelected" text="Has Component" />
+                                                                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="320.0">
+                                                                     <children>
+                                                                        <VBox fx:id="vboxDistribution" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+                                                                           <children>
+                                                                              <GridPane>
+                                                                                <columnConstraints>
+                                                                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="10.0" />
+                                                                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="10.0" />
+                                                                                </columnConstraints>
+                                                                                <rowConstraints>
+                                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                                </rowConstraints>
+                                                                                 <VBox.margin>
+                                                                                    <Insets bottom="10.0" left="10.0" right="10.0" />
+                                                                                 </VBox.margin>
+                                                                                 <children>
+                                                                                    <Label text="Name" />
+                                                                                    <Label text="Static" GridPane.columnIndex="1" />
+                                                                                    <Label text="Dynamic" GridPane.columnIndex="2" />
+                                                                                 </children>
+                                                                              </GridPane>
+                                                                              <VBox fx:id="vboxConnectionEntries" prefHeight="200.0" prefWidth="100.0" />
+                                                                              <Separator prefWidth="200.0">
+                                                                                 <VBox.margin>
+                                                                                    <Insets bottom="10.0" top="10.0" />
+                                                                                 </VBox.margin>
+                                                                              </Separator>
+                                                                              <Label text="Vehicle Fleet (static)">
+                                                                                 <padding>
+                                                                                    <Insets bottom="10.0" />
+                                                                                 </padding>
+                                                                              </Label>
+                                                                              <VBox fx:id="vboxVehicleFleetStatic" prefHeight="200.0" prefWidth="100.0" />
+                                                                              <HBox alignment="CENTER" prefHeight="64.0" prefWidth="317.0" spacing="8.0">
+                                                                                 <children>
+                                                                                    <Button mnemonicParsing="false" onAction="#addVehicleStatic" prefHeight="30.0" text="Add" textAlignment="RIGHT">
+                                                                                       <graphic>
+                                                                                          <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                                                             <image>
+                                                                                                <Image url="@../icons/add.png" />
+                                                                                             </image>
+                                                                                          </ImageView>
+                                                                                       </graphic>
+                                                                                    </Button>
+                                                                                    <Button mnemonicParsing="false" onAction="#removeVehicleStatic" prefHeight="30.0" text="Remove" textAlignment="RIGHT">
+                                                                                       <graphic>
+                                                                                          <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                                                             <image>
+                                                                                                <Image url="@../icons/remove.png" />
+                                                                                             </image>
+                                                                                          </ImageView>
+                                                                                       </graphic>
+                                                                                    </Button>
+                                                                                 </children>
+                                                                                 <VBox.margin>
+                                                                                    <Insets top="10.0" />
+                                                                                 </VBox.margin>
+                                                                              </HBox>
+                                                                              <Separator layoutX="10.0" layoutY="66.0" prefWidth="200.0">
+                                                                                 <VBox.margin>
+                                                                                    <Insets bottom="10.0" top="10.0" />
+                                                                                 </VBox.margin>
+                                                                              </Separator>
+                                                                              <Label layoutX="116.0" layoutY="86.0" text="Vehicle Fleet (dynamic)">
+                                                                                 <padding>
+                                                                                    <Insets bottom="10.0" />
+                                                                                 </padding>
+                                                                              </Label>
+                                                                              <VBox fx:id="vboxVehicleFleetDynamic" layoutX="10.0" layoutY="90.0" prefHeight="200.0" prefWidth="100.0" />
+                                                                              <HBox alignment="CENTER" layoutX="10.0" layoutY="40.0" prefHeight="64.0" prefWidth="317.0" spacing="8.0">
+                                                                                 <children>
+                                                                                    <Button mnemonicParsing="false" onAction="#addVehicleDynamic" prefHeight="30.0" text="Add" textAlignment="RIGHT">
+                                                                                       <graphic>
+                                                                                          <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                                                             <image>
+                                                                                                <Image url="@../icons/add.png" />
+                                                                                             </image>
+                                                                                          </ImageView>
+                                                                                       </graphic>
+                                                                                    </Button>
+                                                                                    <Button mnemonicParsing="false" onAction="#removeVehicleDynamic" prefHeight="30.0" text="Remove" textAlignment="RIGHT">
+                                                                                       <graphic>
+                                                                                          <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                                                             <image>
+                                                                                                <Image url="@../icons/remove.png" />
+                                                                                             </image>
+                                                                                          </ImageView>
+                                                                                       </graphic>
+                                                                                    </Button>
+                                                                                 </children>
+                                                                                 <VBox.margin>
+                                                                                    <Insets top="10.0" />
+                                                                                 </VBox.margin>
+                                                                              </HBox>
+                                                                           </children>
+                                                                           <HBox.margin>
+                                                                              <Insets top="8.0" />
+                                                                           </HBox.margin>
+                                                                        </VBox>
+                                                                     </children>
+                                                                  </HBox>
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                         <padding>
+                                                            <Insets top="20.0" />
+                                                         </padding>
+                                                      </HBox>
+                                                   </content>
+                                                </ScrollPane>
+                                            </content>
+                                          </Tab>
+                                          <Tab fx:id="tabDemand" onSelectionChanged="#tabDemandSelected" text="Dmd">
+                                            <content>
+                                                <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" vbarPolicy="ALWAYS">
+                                                   <content>
+                                                      <HBox alignment="TOP_CENTER" fillHeight="false" prefWidth="340.0">
+                                                         <children>
+                                                            <VBox alignment="TOP_CENTER">
+                                                               <children>
+                                                                  <CheckBox fx:id="checkDemandComponent" alignment="CENTER" mnemonicParsing="false" onAction="#tabDemandSelected" text="Has Component" />
+                                                                  <HBox alignment="CENTER" fillHeight="false" prefWidth="320.0">
+                                                                     <children>
+                                                                        <VBox fx:id="vboxDemand" alignment="TOP_CENTER" prefWidth="100.0" HBox.hgrow="ALWAYS">
+                                                                           <children>
+                                                                              <Label text="Time between Demands" />
+                                                                              <GridPane minHeight="-Infinity" prefHeight="60.0">
+                                                                                <columnConstraints>
+                                                                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="70.0" />
+                                                                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                                </columnConstraints>
+                                                                                <rowConstraints>
+                                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                                </rowConstraints>
+                                                                                 <children>
+                                                                                    <Label text="Distribution" />
+                                                                                    <Label text="Parameter 1" GridPane.columnIndex="1" />
+                                                                                    <Label text="Parameter 2" GridPane.columnIndex="2" />
+                                                                                    <ComboBox fx:id="cbDemandDistribution" prefWidth="150.0" GridPane.rowIndex="1">
+                                                                                       <padding>
+                                                                                          <Insets right="4.0" />
+                                                                                       </padding>
+                                                                                    </ComboBox>
+                                                                                    <TextField fx:id="tfDemandDistributionParam1" alignment="CENTER_RIGHT" onMouseClicked="#factorFieldClicked" text="0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                                                    <TextField fx:id="tfDemandDistributionParam2" alignment="CENTER_RIGHT" onMouseClicked="#factorFieldClicked" text="0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                                                                                 </children>
+                                                                                 <padding>
+                                                                                    <Insets left="10.0" right="10.0" />
+                                                                                 </padding>
+                                                                              </GridPane>
+                                                                              <VBox fx:id="vboxDemandEntries" prefWidth="100.0" />
+                                                                              <HBox alignment="CENTER" fillHeight="false" minHeight="-Infinity" prefHeight="64.0" prefWidth="317.0" spacing="8.0">
+                                                                                 <children>
+                                                                                    <Button mnemonicParsing="false" onAction="#buttonDemandAdd" prefHeight="30.0" text="Add" textAlignment="RIGHT">
+                                                                                       <graphic>
+                                                                                          <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                                                             <image>
+                                                                                                <Image url="@../icons/add.png" />
+                                                                                             </image>
+                                                                                          </ImageView>
+                                                                                       </graphic>
+                                                                                    </Button>
+                                                                                    <Button mnemonicParsing="false" onAction="#buttonDemandRemove" prefHeight="30.0" text="Remove" textAlignment="RIGHT">
+                                                                                       <graphic>
+                                                                                          <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                                                             <image>
+                                                                                                <Image url="@../icons/remove.png" />
+                                                                                             </image>
+                                                                                          </ImageView>
+                                                                                       </graphic>
+                                                                                    </Button>
+                                                                                 </children>
+                                                                              </HBox>
+                                                                           </children>
+                                                                           <HBox.margin>
+                                                                              <Insets top="8.0" />
+                                                                           </HBox.margin>
+                                                                        </VBox>
+                                                                     </children>
+                                                                  </HBox>
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                         <padding>
+                                                            <Insets top="20.0" />
+                                                         </padding>
+                                                      </HBox>
+                                                   </content>
+                                                </ScrollPane>
+                                            </content>
+                                          </Tab>
+                                          <Tab fx:id="tabSourcing" text="Src">
+                                            <content>
+                                                <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" vbarPolicy="ALWAYS">
+                                                   <content>
+                                                      <HBox alignment="TOP_CENTER" prefWidth="340.0">
+                                                         <children>
+                                                            <VBox alignment="TOP_CENTER" fillWidth="false">
+                                                               <children>
+                                                                  <GridPane prefWidth="300.0">
+                                                                     <columnConstraints>
+                                                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="10.0" prefWidth="159.0" />
+                                                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="169.0" minWidth="10.0" prefWidth="141.0" />
+                                                                     </columnConstraints>
+                                                                     <rowConstraints>
+                                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                     </rowConstraints>
+                                                                     <children>
+                                                                        <Label text="SKU" />
+                                                                        <Label text="Sourcing Facility" GridPane.columnIndex="1" />
+                                                                     </children>
+                                                                     <VBox.margin>
+                                                                        <Insets />
+                                                                     </VBox.margin>
+                                                                  </GridPane>
+                                                                  <VBox fx:id="vboxSourcingEntries" />
+                                                                  <HBox alignment="CENTER" fillHeight="false" minHeight="-Infinity" prefHeight="64.0" prefWidth="317.0" spacing="8.0">
+                                                                     <children>
+                                                                        <Button mnemonicParsing="false" onAction="#buttonSourcingAdd" prefHeight="30.0" text="Add" textAlignment="RIGHT">
+                                                                           <graphic>
+                                                                              <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                                                 <image>
+                                                                                    <Image url="@../icons/add.png" />
+                                                                                 </image>
+                                                                              </ImageView>
+                                                                           </graphic>
+                                                                        </Button>
+                                                                        <Button mnemonicParsing="false" onAction="#buttonSourcingRemove" prefHeight="30.0" text="Remove" textAlignment="RIGHT">
+                                                                           <graphic>
+                                                                              <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                                                 <image>
+                                                                                    <Image url="@../icons/remove.png" />
+                                                                                 </image>
+                                                                              </ImageView>
+                                                                           </graphic>
+                                                                        </Button>
+                                                                     </children>
+                                                                  </HBox>
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                         <padding>
+                                                            <Insets top="20.0" />
+                                                         </padding>
+                                                      </HBox>
+                                                   </content>
+                                                </ScrollPane>
+                                            </content>
+                                          </Tab>
+                                      </tabs>
+                                    </TabPane>
+                                 </children>
+                              </VBox>
+                        </content>
+                      </Tab>
+                        <Tab text="SKUs">
+                          <content>
+                              <VBox prefHeight="641.0" prefWidth="253.0">
+                                 <children>
+                                    <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Stocklist" textAlignment="CENTER">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets top="8.0" />
+                                       </VBox.margin>
+                                    </Label>
+                                    <HBox alignment="TOP_CENTER" maxWidth="-Infinity" prefHeight="606.0" prefWidth="316.0" VBox.vgrow="ALWAYS">
+                                       <children>
+                                          <VBox alignment="TOP_CENTER" spacing="10.0" HBox.hgrow="ALWAYS">
+                                             <children>
+                                                <TableView fx:id="tableSKUs" fixedCellSize="30.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="513.0" prefWidth="292.0">
+                                                   <columns>
+                                                      <TableColumn fx:id="tableSKUsNames" prefWidth="182.0" resizable="false" style="-fx-alignment: center-left;" text="Name" />
+                                                      <TableColumn fx:id="tableSKUsRemoveButtons" prefWidth="65.0" resizable="false" style="-fx-alignment: center;" text="Remove" />
+                                                   </columns>
+                                                </TableView>
+                                                <GridPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="292.0">
+                                                   <columnConstraints>
+                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                   </columnConstraints>
+                                                   <rowConstraints>
+                                                      <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                                   </rowConstraints>
+                                                   <children>
+                                                      <Label fx:id="labelNumberOfSKUs" text="0/10 SKUs" />
+                                                      <Button fx:id="btnAddSKU" mnemonicParsing="false" onAction="#addSKU" prefHeight="30.0" text="Add SKU" textAlignment="RIGHT" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
+                                                         <graphic>
+                                                            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@../icons/add.png" />
+                                                               </image>
+                                                            </ImageView>
+                                                         </graphic>
+                                                      </Button>
+                                                   </children>
+                                                </GridPane>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                       <padding>
+                                          <Insets top="8.0" />
+                                       </padding>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                          </content>
+                        </Tab>
+                        <Tab text="Vehicles">
+                          <content>
+                              <VBox prefHeight="641.0" prefWidth="253.0">
+                                 <children>
+                                    <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Vehicle Classes" textAlignment="CENTER">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets top="8.0" />
+                                       </VBox.margin>
+                                    </Label>
+                                    <HBox alignment="TOP_CENTER" maxWidth="-Infinity" prefHeight="606.0" prefWidth="316.0" VBox.vgrow="ALWAYS">
+                                       <children>
+                                          <VBox alignment="TOP_CENTER" spacing="10.0" HBox.hgrow="ALWAYS">
+                                             <children>
+                                                <TableView fx:id="tableVehicleClasses" fixedCellSize="30.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="513.0">
+                                                   <columns>
+                                                      <TableColumn fx:id="tableVehicleClassesNames" prefWidth="150.0" resizable="false" style="-fx-alignment: center-left;" text="Name" />
+                                                      <TableColumn fx:id="tableVehicleClassesCapacities" prefWidth="75.0" text="Capacity" />
+                                                      <TableColumn fx:id="tableVehicleClassesRemoveButtons" prefWidth="65.0" resizable="false" style="-fx-alignment: center;" text="Remove" />
+                                                   </columns>
+                                                </TableView>
+                                                <GridPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="290.0">
+                                                   <columnConstraints>
+                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                   </columnConstraints>
+                                                   <rowConstraints>
+                                                      <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                                   </rowConstraints>
+                                                   <children>
+                                                      <Label fx:id="labelNumberOfVehicleClasses" text="0/10 Vehicle Classes" />
+                                                      <Button fx:id="btnAddVehicleClass" mnemonicParsing="false" onAction="#addVehicleClass" prefHeight="30.0" text="Add Vehicle Class" textAlignment="RIGHT" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
+                                                         <graphic>
+                                                            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@../icons/add.png" />
+                                                               </image>
+                                                            </ImageView>
+                                                         </graphic>
+                                                      </Button>
+                                                   </children>
+                                                </GridPane>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                       <padding>
+                                          <Insets top="8.0" />
+                                       </padding>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                          </content>
+                        </Tab>
+                        <Tab text="Experiment">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <Button fx:id="startButton" disable="true" layoutX="59.0" layoutY="384.0" mnemonicParsing="false" onAction="#startExperiment" prefWidth="200.0" text="Start Experiment" />
+                                    <ProgressBar fx:id="pbExperiment" layoutX="25.0" layoutY="427.0" prefHeight="18.0" prefWidth="238.0" progress="0.0" />
+                                    <Label fx:id="labelExperimentProgress" layoutX="271.0" layoutY="428.0" text="0%" textAlignment="RIGHT" />
+                                    <Label fx:id="labelExperimentTime" layoutX="27.0" layoutY="453.0" text="00:00.00" />
+                                    <Button layoutX="173.0" layoutY="184.0" mnemonicParsing="false" onAction="#loadExperimentPlanFromHardDrive" text="Experiment Plan">
+                                       <graphic>
+                                          <ImageView fitHeight="20.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../icons/load.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </Button>
+                                    <AnchorPane layoutX="24.0" layoutY="184.0" prefHeight="28.0" prefWidth="140.0" style="-fx-border-color: black;">
+                                       <children>
+                                          <Label fx:id="labelExperimentPlanFile" text="None loaded" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="2.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <ImageView fx:id="iconStatus" fitHeight="50.0" fitWidth="200.0" layoutX="238.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../icons/status_idle.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Conduct Experiment" textAlignment="CENTER" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="8.0">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <DatePicker fx:id="dpStart" layoutX="125.0" layoutY="64.0" />
+                                    <Label layoutX="26.0" layoutY="68.0" text="Start Date" />
+                                    <DatePicker fx:id="dpWarmUp" layoutX="125.0" layoutY="97.0" />
+                                    <Label layoutX="26.0" layoutY="101.0" text="Warm Up Date" />
+                                    <DatePicker fx:id="dpEnd" layoutX="125.0" layoutY="129.0" />
+                                    <Label layoutX="26.0" layoutY="133.0" text="End Date" />
+                                    <Label layoutX="24.0" layoutY="236.0" text="Thread Pool Size">
+                                       <padding>
+                                          <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                       </padding>
+                                    </Label>
+                                    <TextField fx:id="tfThreadPoolSize" alignment="CENTER_RIGHT" layoutX="150.0" layoutY="236.0" text="1" />
+                                    <Button layoutX="59.0" layoutY="348.0" mnemonicParsing="false" onAction="#buildModel" prefWidth="200.0" text="Build Model" />
+                                    <Label layoutX="24.0" layoutY="271.0" text="Seed">
+                                       <padding>
+                                          <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                       </padding>
+                                    </Label>
+                                    <TextField fx:id="tfSeed" alignment="CENTER_RIGHT" layoutX="150.0" layoutY="271.0" text="0" />
+                                    <VBox alignment="TOP_CENTER" layoutX="115.0" layoutY="540.0" prefHeight="109.0" prefWidth="330.0" spacing="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                       <children>
+                                          <Button mnemonicParsing="false" onAction="#startLogRun" prefWidth="120.0" text="Start Log Run" />
+                                          <Button mnemonicParsing="false" onAction="#loadScenario1" prefWidth="120.0" text="Start Scenario 1" />
+                                          <Button mnemonicParsing="false" onAction="#loadScenario2" prefWidth="120.0" text="Start Scenario 2" />
+                                       </children>
+                                    </VBox>
+                                    <Label layoutX="24.0" layoutY="307.0" text="Replications">
+                                       <padding>
+                                          <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                       </padding>
+                                    </Label>
+                                    <TextField fx:id="tfReplications" alignment="CENTER_RIGHT" layoutX="150.0" layoutY="307.0" text="0" />
+                                 </children></AnchorPane>
+                          </content>
+                        </Tab>
+                    </tabs>
+                  </TabPane>
+              <ScrollPane prefHeight="-1.0" prefWidth="-1.0">
+                <content>
+                  <AnchorPane id="Content" fx:id="panePlaceableArea" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="1019.0" />
+                </content>
+              </ScrollPane>
+            </items>
+          </SplitPane>
+        </children>
+      </VBox>
+   </children>
+</AnchorPane>

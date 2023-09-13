@@ -1,0 +1,2 @@
+Model loading time: 0s
+Simulation took: 1s

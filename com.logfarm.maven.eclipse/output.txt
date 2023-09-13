@@ -1,0 +1,3104 @@
+Drop DB
+Create DB
+Started threading loop
+1,c,0.077
+2,c,0.035
+Starting simulation.
+Starting simulation.
+Simulation finished
+Simulation finished
+2,s,0.111
+2,w,7.498
+Run 1 finished! <------------------------------------------
+3,c,0.01
+Starting simulation.
+Simulation finished
+1,s,0.201
+1,w,9.438
+Run 2 finished! <------------------------------------------
+4,c,0.02
+Starting simulation.
+Simulation finished
+3,s,0.205
+3,w,3.528
+Run 3 finished! <------------------------------------------
+5,c,0.023
+Starting simulation.
+Simulation finished
+4,s,0.023
+4,w,2.927
+Run 4 finished! <------------------------------------------
+6,c,0.005
+Starting simulation.
+Simulation finished
+5,s,0.042
+5,w,2.091
+Run 5 finished! <------------------------------------------
+7,c,0.003
+Starting simulation.
+Simulation finished
+6,s,0.012
+6,w,1.876
+Run 6 finished! <------------------------------------------
+8,c,0.007
+Starting simulation.
+Simulation finished
+7,s,0.009
+7,w,2.022
+Run 7 finished! <------------------------------------------
+9,c,0.003
+Starting simulation.
+Simulation finished
+8,s,0.008
+8,w,1.907
+Run 8 finished! <------------------------------------------
+10,c,0.003
+Starting simulation.
+Simulation finished
+9,s,0.006
+9,w,1.693
+Run 9 finished! <------------------------------------------
+11,c,0.008
+Starting simulation.
+Simulation finished
+10,s,0.033
+10,w,1.701
+Run 10 finished! <------------------------------------------
+12,c,0.002
+Starting simulation.
+Simulation finished
+11,s,0.006
+11,w,2.136
+Run 11 finished! <------------------------------------------
+13,c,0.001
+Starting simulation.
+Simulation finished
+12,s,0.005
+12,w,2.446
+Run 12 finished! <------------------------------------------
+14,c,0.002
+Starting simulation.
+Simulation finished
+13,s,0.023
+13,w,1.975
+Run 13 finished! <------------------------------------------
+15,c,0.002
+Starting simulation.
+Simulation finished
+14,s,0.018
+14,w,1.459
+Run 14 finished! <------------------------------------------
+16,c,0.002
+Starting simulation.
+Simulation finished
+15,s,0.007
+15,w,1.602
+Run 15 finished! <------------------------------------------
+17,c,0.001
+Starting simulation.
+Simulation finished
+16,s,0.009
+16,w,1.556
+Run 16 finished! <------------------------------------------
+18,c,0.001
+Starting simulation.
+Simulation finished
+17,s,0.012
+17,w,1.43
+Run 17 finished! <------------------------------------------
+19,c,0.001
+Starting simulation.
+Simulation finished
+18,s,0.007
+18,w,1.714
+Run 18 finished! <------------------------------------------
+20,c,0.002
+Starting simulation.
+Simulation finished
+19,s,0.022
+19,w,1.611
+Run 19 finished! <------------------------------------------
+21,c,0.001
+Starting simulation.
+Simulation finished
+20,s,0.018
+20,w,1.494
+Run 20 finished! <------------------------------------------
+22,c,0.001
+Starting simulation.
+Simulation finished
+21,s,0.014
+21,w,1.677
+Run 21 finished! <------------------------------------------
+23,c,0.002
+Starting simulation.
+Simulation finished
+22,s,0.006
+22,w,1.65
+Run 22 finished! <------------------------------------------
+24,c,0.002
+Starting simulation.
+Simulation finished
+23,s,0.03
+23,w,1.646
+Run 23 finished! <------------------------------------------
+25,c,0.001
+Starting simulation.
+Simulation finished
+24,s,0.054
+24,w,1.835
+Run 24 finished! <------------------------------------------
+26,c,0.001
+Starting simulation.
+Simulation finished
+25,s,0.018
+25,w,1.883
+Run 25 finished! <------------------------------------------
+27,c,0.001
+Starting simulation.
+Simulation finished
+26,s,0.015
+26,w,1.65
+Run 26 finished! <------------------------------------------
+28,c,0.002
+Starting simulation.
+Simulation finished
+27,s,0.019
+27,w,1.614
+Run 27 finished! <------------------------------------------
+29,c,0.002
+Starting simulation.
+Simulation finished
+28,s,0.056
+28,w,1.544
+Run 28 finished! <------------------------------------------
+30,c,0.001
+Starting simulation.
+Simulation finished
+29,s,0.009
+29,w,1.502
+Run 29 finished! <------------------------------------------
+31,c,0.001
+Starting simulation.
+Simulation finished
+30,s,0.006
+30,w,1.401
+Run 30 finished! <------------------------------------------
+32,c,0.001
+Starting simulation.
+Simulation finished
+31,s,0.005
+31,w,1.416
+Run 31 finished! <------------------------------------------
+33,c,0.001
+Starting simulation.
+Simulation finished
+32,s,0.014
+32,w,1.453
+Run 32 finished! <------------------------------------------
+34,c,0.0
+Starting simulation.
+Simulation finished
+33,s,0.014
+33,w,1.587
+Run 33 finished! <------------------------------------------
+35,c,0.001
+Starting simulation.
+Simulation finished
+34,s,0.006
+34,w,1.689
+Run 34 finished! <------------------------------------------
+36,c,0.002
+Starting simulation.
+Simulation finished
+35,s,0.008
+35,w,1.503
+Run 35 finished! <------------------------------------------
+37,c,0.001
+Starting simulation.
+Simulation finished
+36,s,0.008
+36,w,1.45
+Run 36 finished! <------------------------------------------
+38,c,0.001
+Starting simulation.
+Simulation finished
+37,s,0.026
+37,w,1.569
+Run 37 finished! <------------------------------------------
+39,c,0.01
+Starting simulation.
+Simulation finished
+38,s,0.006
+38,w,1.796
+Run 38 finished! <------------------------------------------
+40,c,0.001
+Starting simulation.
+Simulation finished
+39,s,0.005
+39,w,1.842
+Run 39 finished! <------------------------------------------
+41,c,0.002
+Starting simulation.
+Simulation finished
+40,s,0.005
+40,w,1.631
+Run 40 finished! <------------------------------------------
+42,c,0.001
+Starting simulation.
+Simulation finished
+41,s,0.025
+41,w,1.532
+Run 41 finished! <------------------------------------------
+43,c,0.002
+Starting simulation.
+Simulation finished
+42,s,0.011
+42,w,1.736
+Run 42 finished! <------------------------------------------
+44,c,0.001
+Starting simulation.
+Simulation finished
+43,s,0.011
+43,w,1.546
+Run 43 finished! <------------------------------------------
+45,c,0.001
+Starting simulation.
+Simulation finished
+44,s,0.008
+44,w,1.38
+Run 44 finished! <------------------------------------------
+46,c,0.001
+Starting simulation.
+Simulation finished
+45,s,0.005
+45,w,1.544
+Run 45 finished! <------------------------------------------
+47,c,0.002
+Starting simulation.
+Simulation finished
+46,s,0.005
+46,w,1.489
+Run 46 finished! <------------------------------------------
+48,c,0.001
+Starting simulation.
+Simulation finished
+47,s,0.013
+47,w,1.461
+Run 47 finished! <------------------------------------------
+49,c,0.001
+Starting simulation.
+Simulation finished
+48,s,0.014
+48,w,1.635
+Run 48 finished! <------------------------------------------
+50,c,0.001
+Starting simulation.
+Simulation finished
+49,s,0.01
+49,w,1.685
+Run 49 finished! <------------------------------------------
+51,c,0.001
+Starting simulation.
+Simulation finished
+50,s,0.008
+50,w,1.616
+Run 50 finished! <------------------------------------------
+52,c,0.001
+Starting simulation.
+Simulation finished
+51,s,0.005
+51,w,1.451
+Run 51 finished! <------------------------------------------
+53,c,0.001
+Starting simulation.
+Simulation finished
+52,s,0.013
+52,w,1.447
+Run 52 finished! <------------------------------------------
+54,c,0.001
+Starting simulation.
+Simulation finished
+53,s,0.024
+53,w,1.445
+Run 53 finished! <------------------------------------------
+55,c,0.001
+Starting simulation.
+Simulation finished
+54,s,0.012
+54,w,1.556
+Run 54 finished! <------------------------------------------
+56,c,0.0
+Starting simulation.
+Simulation finished
+55,s,0.007
+55,w,1.561
+Run 55 finished! <------------------------------------------
+57,c,0.001
+Starting simulation.
+Simulation finished
+56,s,0.006
+56,w,1.503
+Run 56 finished! <------------------------------------------
+58,c,0.001
+Starting simulation.
+Simulation finished
+57,s,0.011
+57,w,1.448
+Run 57 finished! <------------------------------------------
+59,c,0.001
+Starting simulation.
+Simulation finished
+58,s,0.007
+58,w,1.468
+Run 58 finished! <------------------------------------------
+60,c,0.001
+Starting simulation.
+Simulation finished
+59,s,0.008
+59,w,1.621
+Run 59 finished! <------------------------------------------
+61,c,0.001
+Starting simulation.
+Simulation finished
+60,s,0.006
+60,w,1.619
+Run 60 finished! <------------------------------------------
+62,c,0.001
+Starting simulation.
+Simulation finished
+61,s,0.012
+61,w,1.494
+Run 61 finished! <------------------------------------------
+63,c,0.001
+Starting simulation.
+Simulation finished
+62,s,0.01
+62,w,1.34
+Run 62 finished! <------------------------------------------
+64,c,0.002
+Starting simulation.
+Simulation finished
+63,s,0.009
+63,w,1.387
+Run 63 finished! <------------------------------------------
+65,c,0.002
+Starting simulation.
+Simulation finished
+64,s,0.01
+64,w,1.43
+Run 64 finished! <------------------------------------------
+66,c,0.001
+Starting simulation.
+Simulation finished
+65,s,0.006
+65,w,1.362
+Run 65 finished! <------------------------------------------
+67,c,0.001
+Starting simulation.
+Simulation finished
+66,s,0.005
+66,w,1.379
+Run 66 finished! <------------------------------------------
+68,c,0.001
+Starting simulation.
+Simulation finished
+67,s,0.017
+67,w,1.301
+Run 67 finished! <------------------------------------------
+69,c,0.001
+Starting simulation.
+Simulation finished
+68,s,0.009
+68,w,1.249
+Run 68 finished! <------------------------------------------
+70,c,0.002
+Starting simulation.
+Simulation finished
+69,s,0.014
+69,w,1.366
+Run 69 finished! <------------------------------------------
+71,c,0.001
+Starting simulation.
+Simulation finished
+70,s,0.005
+70,w,1.462
+Run 70 finished! <------------------------------------------
+72,c,0.001
+Starting simulation.
+Simulation finished
+71,s,0.009
+71,w,1.43
+Run 71 finished! <------------------------------------------
+73,c,0.001
+Starting simulation.
+Simulation finished
+72,s,0.018
+72,w,1.41
+Run 72 finished! <------------------------------------------
+74,c,0.001
+Starting simulation.
+Simulation finished
+73,s,0.006
+73,w,1.35
+Run 73 finished! <------------------------------------------
+75,c,0.0
+Starting simulation.
+Simulation finished
+74,s,0.006
+74,w,1.237
+Run 74 finished! <------------------------------------------
+76,c,0.001
+Starting simulation.
+Simulation finished
+75,s,0.008
+75,w,1.25
+Run 75 finished! <------------------------------------------
+77,c,0.001
+Starting simulation.
+Simulation finished
+76,s,0.006
+76,w,1.354
+Run 76 finished! <------------------------------------------
+78,c,0.001
+Starting simulation.
+Simulation finished
+77,s,0.005
+77,w,1.446
+Run 77 finished! <------------------------------------------
+79,c,0.001
+Starting simulation.
+Simulation finished
+78,s,0.005
+78,w,1.379
+Run 78 finished! <------------------------------------------
+80,c,0.001
+Starting simulation.
+Simulation finished
+79,s,0.007
+79,w,1.352
+Run 79 finished! <------------------------------------------
+81,c,0.001
+Starting simulation.
+Simulation finished
+80,s,0.008
+80,w,1.405
+Run 80 finished! <------------------------------------------
+82,c,0.0
+Starting simulation.
+Simulation finished
+81,s,0.014
+81,w,1.349
+Run 81 finished! <------------------------------------------
+83,c,0.001
+Starting simulation.
+Simulation finished
+82,s,0.006
+82,w,1.497
+Run 82 finished! <------------------------------------------
+84,c,0.001
+Starting simulation.
+Simulation finished
+83,s,0.005
+83,w,1.446
+Run 83 finished! <------------------------------------------
+85,c,0.001
+Starting simulation.
+Simulation finished
+84,s,0.007
+84,w,1.258
+Run 84 finished! <------------------------------------------
+86,c,0.001
+Starting simulation.
+Simulation finished
+85,s,0.006
+85,w,1.292
+Run 85 finished! <------------------------------------------
+87,c,0.002
+Starting simulation.
+Simulation finished
+86,s,0.01
+86,w,1.297
+Run 86 finished! <------------------------------------------
+88,c,0.001
+Starting simulation.
+Simulation finished
+87,s,0.02
+87,w,1.245
+Run 87 finished! <------------------------------------------
+89,c,0.001
+Starting simulation.
+Simulation finished
+88,s,0.006
+88,w,1.306
+Run 88 finished! <------------------------------------------
+90,c,0.001
+Starting simulation.
+Simulation finished
+89,s,0.008
+89,w,1.453
+Run 89 finished! <------------------------------------------
+91,c,0.001
+Starting simulation.
+Simulation finished
+90,s,0.02
+90,w,1.35
+Run 90 finished! <------------------------------------------
+92,c,0.001
+Starting simulation.
+Simulation finished
+91,s,0.005
+91,w,1.299
+Run 91 finished! <------------------------------------------
+93,c,0.001
+Starting simulation.
+Simulation finished
+92,s,0.006
+92,w,1.341
+Run 92 finished! <------------------------------------------
+94,c,0.001
+Starting simulation.
+Simulation finished
+93,s,0.005
+93,w,1.523
+Run 93 finished! <------------------------------------------
+95,c,0.001
+Starting simulation.
+Simulation finished
+94,s,0.007
+94,w,1.563
+Run 94 finished! <------------------------------------------
+96,c,0.001
+Starting simulation.
+Simulation finished
+95,s,0.007
+95,w,1.407
+Run 95 finished! <------------------------------------------
+97,c,0.001
+Starting simulation.
+Simulation finished
+96,s,0.005
+96,w,1.328
+Run 96 finished! <------------------------------------------
+98,c,0.001
+Starting simulation.
+Simulation finished
+97,s,0.005
+97,w,1.307
+Run 97 finished! <------------------------------------------
+99,c,0.001
+Starting simulation.
+Simulation finished
+98,s,0.008
+98,w,1.323
+Run 98 finished! <------------------------------------------
+100,c,0.001
+Starting simulation.
+Simulation finished
+99,s,0.007
+99,w,1.558
+Run 99 finished! <------------------------------------------
+101,c,0.001
+Starting simulation.
+Simulation finished
+100,s,0.005
+100,w,1.531
+Run 100 finished! <------------------------------------------
+102,c,0.001
+Starting simulation.
+Simulation finished
+101,s,0.004
+101,w,1.445
+Run 101 finished! <------------------------------------------
+103,c,0.005
+Starting simulation.
+Simulation finished
+102,s,0.011
+102,w,1.624
+Run 102 finished! <------------------------------------------
+104,c,0.001
+Starting simulation.
+Simulation finished
+103,s,0.012
+103,w,1.556
+Run 103 finished! <------------------------------------------
+105,c,0.001
+Starting simulation.
+Simulation finished
+104,s,0.035
+104,w,1.572
+Run 104 finished! <------------------------------------------
+106,c,0.002
+Starting simulation.
+Simulation finished
+105,s,0.007
+105,w,1.749
+Run 105 finished! <------------------------------------------
+107,c,0.001
+Starting simulation.
+Simulation finished
+106,s,0.02
+106,w,1.533
+Run 106 finished! <------------------------------------------
+108,c,0.001
+Starting simulation.
+Simulation finished
+107,s,0.004
+107,w,1.461
+Run 107 finished! <------------------------------------------
+109,c,0.001
+Starting simulation.
+Simulation finished
+108,s,0.008
+108,w,1.648
+Run 108 finished! <------------------------------------------
+110,c,0.001
+Starting simulation.
+Simulation finished
+109,s,0.013
+109,w,1.77
+Run 109 finished! <------------------------------------------
+111,c,0.001
+Starting simulation.
+Simulation finished
+110,s,0.004
+110,w,1.8
+Run 110 finished! <------------------------------------------
+112,c,0.001
+Starting simulation.
+Simulation finished
+111,s,0.011
+111,w,1.559
+Run 111 finished! <------------------------------------------
+113,c,0.001
+Starting simulation.
+Simulation finished
+112,s,0.009
+112,w,1.408
+Run 112 finished! <------------------------------------------
+114,c,0.002
+Starting simulation.
+Simulation finished
+113,s,0.007
+113,w,1.418
+Run 113 finished! <------------------------------------------
+115,c,0.001
+Starting simulation.
+Simulation finished
+114,s,0.01
+114,w,1.56
+Run 114 finished! <------------------------------------------
+116,c,0.001
+Starting simulation.
+Simulation finished
+115,s,0.013
+115,w,1.624
+Run 115 finished! <------------------------------------------
+117,c,0.001
+Starting simulation.
+Simulation finished
+116,s,0.005
+116,w,1.602
+Run 116 finished! <------------------------------------------
+118,c,0.001
+Starting simulation.
+Simulation finished
+117,s,0.006
+117,w,1.618
+Run 117 finished! <------------------------------------------
+119,c,0.001
+Starting simulation.
+Simulation finished
+118,s,0.026
+118,w,1.621
+Run 118 finished! <------------------------------------------
+120,c,0.001
+Starting simulation.
+Simulation finished
+119,s,0.005
+119,w,1.6
+Run 119 finished! <------------------------------------------
+121,c,0.001
+Starting simulation.
+Simulation finished
+120,s,0.018
+120,w,1.417
+Run 120 finished! <------------------------------------------
+122,c,0.001
+Starting simulation.
+Simulation finished
+121,s,0.007
+121,w,1.42
+Run 121 finished! <------------------------------------------
+123,c,0.001
+Starting simulation.
+Simulation finished
+122,s,0.005
+122,w,1.384
+Run 122 finished! <------------------------------------------
+124,c,0.0
+Starting simulation.
+Simulation finished
+123,s,0.005
+123,w,1.26
+Run 123 finished! <------------------------------------------
+125,c,0.001
+Starting simulation.
+Simulation finished
+124,s,0.007
+124,w,1.341
+Run 124 finished! <------------------------------------------
+126,c,0.001
+Starting simulation.
+Simulation finished
+125,s,0.007
+125,w,1.394
+Run 125 finished! <------------------------------------------
+127,c,0.001
+Starting simulation.
+Simulation finished
+126,s,0.006
+126,w,1.411
+Run 126 finished! <------------------------------------------
+128,c,0.001
+Starting simulation.
+Simulation finished
+127,s,0.011
+127,w,1.448
+Run 127 finished! <------------------------------------------
+129,c,0.001
+Starting simulation.
+Simulation finished
+128,s,0.005
+128,w,1.352
+Run 128 finished! <------------------------------------------
+130,c,0.001
+Starting simulation.
+Simulation finished
+129,s,0.005
+129,w,1.23
+Run 129 finished! <------------------------------------------
+131,c,0.001
+Starting simulation.
+Simulation finished
+130,s,0.009
+130,w,1.24
+Run 130 finished! <------------------------------------------
+132,c,0.001
+Starting simulation.
+Simulation finished
+131,s,0.008
+131,w,1.359
+Run 131 finished! <------------------------------------------
+133,c,0.001
+Starting simulation.
+Simulation finished
+132,s,0.018
+132,w,1.317
+Run 132 finished! <------------------------------------------
+134,c,0.001
+Starting simulation.
+Simulation finished
+133,s,0.007
+133,w,1.305
+Run 133 finished! <------------------------------------------
+135,c,0.001
+Starting simulation.
+Simulation finished
+134,s,0.01
+134,w,1.387
+Run 134 finished! <------------------------------------------
+136,c,0.001
+Starting simulation.
+Simulation finished
+135,s,0.005
+135,w,1.461
+Run 135 finished! <------------------------------------------
+137,c,0.001
+Starting simulation.
+Simulation finished
+136,s,0.004
+136,w,1.525
+Run 136 finished! <------------------------------------------
+138,c,0.001
+Starting simulation.
+Simulation finished
+137,s,0.011
+137,w,1.507
+Run 137 finished! <------------------------------------------
+139,c,0.001
+Starting simulation.
+Simulation finished
+138,s,0.007
+138,w,1.593
+Run 138 finished! <------------------------------------------
+140,c,0.001
+Starting simulation.
+Simulation finished
+139,s,0.039
+139,w,1.574
+Run 139 finished! <------------------------------------------
+141,c,0.002
+Starting simulation.
+Simulation finished
+140,s,0.017
+140,w,1.546
+Run 140 finished! <------------------------------------------
+142,c,0.001
+Starting simulation.
+Simulation finished
+141,s,0.017
+141,w,1.605
+Run 141 finished! <------------------------------------------
+143,c,0.001
+Starting simulation.
+Simulation finished
+142,s,0.008
+142,w,1.676
+Run 142 finished! <------------------------------------------
+144,c,0.001
+Starting simulation.
+Simulation finished
+143,s,0.01
+143,w,1.626
+Run 143 finished! <------------------------------------------
+145,c,0.001
+Starting simulation.
+Simulation finished
+144,s,0.005
+144,w,1.385
+Run 144 finished! <------------------------------------------
+146,c,0.001
+Starting simulation.
+Simulation finished
+145,s,0.006
+145,w,1.353
+Run 145 finished! <------------------------------------------
+147,c,0.0
+Starting simulation.
+Simulation finished
+146,s,0.004
+146,w,1.404
+Run 146 finished! <------------------------------------------
+148,c,0.001
+Starting simulation.
+Simulation finished
+147,s,0.005
+147,w,1.301
+Run 147 finished! <------------------------------------------
+149,c,0.001
+Starting simulation.
+Simulation finished
+148,s,0.005
+148,w,1.269
+Run 148 finished! <------------------------------------------
+150,c,0.001
+Starting simulation.
+Simulation finished
+149,s,0.006
+149,w,1.516
+Run 149 finished! <------------------------------------------
+151,c,0.002
+Starting simulation.
+Simulation finished
+150,s,0.005
+150,w,1.568
+Run 150 finished! <------------------------------------------
+152,c,0.001
+Starting simulation.
+Simulation finished
+151,s,0.01
+151,w,1.444
+Run 151 finished! <------------------------------------------
+153,c,0.001
+Starting simulation.
+Simulation finished
+152,s,0.007
+152,w,1.638
+Run 152 finished! <------------------------------------------
+154,c,0.001
+Starting simulation.
+Simulation finished
+153,s,0.005
+153,w,1.657
+Run 153 finished! <------------------------------------------
+155,c,0.001
+Starting simulation.
+Simulation finished
+154,s,0.005
+154,w,1.405
+Run 154 finished! <------------------------------------------
+156,c,0.001
+Starting simulation.
+Simulation finished
+155,s,0.007
+155,w,1.345
+Run 155 finished! <------------------------------------------
+157,c,0.001
+Starting simulation.
+Simulation finished
+156,s,0.028
+156,w,1.37
+Run 156 finished! <------------------------------------------
+158,c,0.001
+Starting simulation.
+Simulation finished
+157,s,0.006
+157,w,1.574
+Run 157 finished! <------------------------------------------
+159,c,0.001
+Starting simulation.
+Simulation finished
+158,s,0.006
+158,w,1.892
+Run 158 finished! <------------------------------------------
+160,c,0.001
+Starting simulation.
+Simulation finished
+159,s,0.007
+159,w,1.846
+Run 159 finished! <------------------------------------------
+161,c,0.001
+Starting simulation.
+Simulation finished
+160,s,0.014
+160,w,1.718
+Run 160 finished! <------------------------------------------
+162,c,0.001
+Starting simulation.
+Simulation finished
+161,s,0.007
+161,w,1.791
+Run 161 finished! <------------------------------------------
+163,c,0.001
+Starting simulation.
+Simulation finished
+162,s,0.008
+162,w,1.645
+Run 162 finished! <------------------------------------------
+164,c,0.001
+Starting simulation.
+Simulation finished
+163,s,0.015
+163,w,1.469
+Run 163 finished! <------------------------------------------
+165,c,0.001
+Starting simulation.
+Simulation finished
+164,s,0.008
+164,w,1.504
+Run 164 finished! <------------------------------------------
+166,c,0.001
+Starting simulation.
+Simulation finished
+165,s,0.005
+165,w,1.438
+Run 165 finished! <------------------------------------------
+167,c,0.001
+Starting simulation.
+Simulation finished
+166,s,0.005
+166,w,1.498
+Run 166 finished! <------------------------------------------
+168,c,0.0
+Starting simulation.
+Simulation finished
+167,s,0.007
+167,w,1.555
+Run 167 finished! <------------------------------------------
+169,c,0.001
+Starting simulation.
+Simulation finished
+168,s,0.005
+168,w,1.402
+Run 168 finished! <------------------------------------------
+170,c,0.001
+Starting simulation.
+Simulation finished
+169,s,0.005
+169,w,1.545
+Run 169 finished! <------------------------------------------
+171,c,0.001
+Starting simulation.
+Simulation finished
+170,s,0.01
+170,w,1.6
+Run 170 finished! <------------------------------------------
+172,c,0.001
+Starting simulation.
+Simulation finished
+171,s,0.012
+171,w,1.555
+Run 171 finished! <------------------------------------------
+173,c,0.012
+Starting simulation.
+Simulation finished
+172,s,0.006
+172,w,1.567
+Run 172 finished! <------------------------------------------
+174,c,0.002
+Starting simulation.
+Simulation finished
+173,s,0.005
+173,w,1.467
+Run 173 finished! <------------------------------------------
+175,c,0.002
+Starting simulation.
+Simulation finished
+174,s,0.009
+174,w,1.541
+Run 174 finished! <------------------------------------------
+176,c,0.001
+Starting simulation.
+Simulation finished
+175,s,0.011
+175,w,1.69
+Run 175 finished! <------------------------------------------
+177,c,0.001
+Starting simulation.
+Simulation finished
+176,s,0.006
+176,w,1.656
+Run 176 finished! <------------------------------------------
+178,c,0.001
+Starting simulation.
+Simulation finished
+177,s,0.016
+177,w,1.554
+Run 177 finished! <------------------------------------------
+179,c,0.001
+Starting simulation.
+Simulation finished
+178,s,0.006
+178,w,1.707
+Run 178 finished! <------------------------------------------
+180,c,0.001
+Starting simulation.
+Simulation finished
+179,s,0.014
+179,w,1.764
+Run 179 finished! <------------------------------------------
+181,c,0.0
+Starting simulation.
+Simulation finished
+180,s,0.016
+180,w,1.678
+Run 180 finished! <------------------------------------------
+182,c,0.001
+Starting simulation.
+Simulation finished
+181,s,0.008
+181,w,1.636
+Run 181 finished! <------------------------------------------
+183,c,0.001
+Starting simulation.
+Simulation finished
+182,s,0.008
+182,w,1.633
+Run 182 finished! <------------------------------------------
+184,c,0.001
+Starting simulation.
+Simulation finished
+183,s,0.022
+183,w,1.678
+Run 183 finished! <------------------------------------------
+185,c,0.0
+Starting simulation.
+Simulation finished
+184,s,0.006
+184,w,1.602
+Run 184 finished! <------------------------------------------
+186,c,0.001
+Starting simulation.
+Simulation finished
+185,s,0.006
+185,w,1.412
+Run 185 finished! <------------------------------------------
+187,c,0.001
+Starting simulation.
+Simulation finished
+186,s,0.005
+186,w,1.456
+Run 186 finished! <------------------------------------------
+188,c,0.001
+Starting simulation.
+Simulation finished
+187,s,0.006
+187,w,1.514
+Run 187 finished! <------------------------------------------
+189,c,0.0
+Starting simulation.
+Simulation finished
+188,s,0.022
+188,w,1.556
+Run 188 finished! <------------------------------------------
+190,c,0.001
+Starting simulation.
+Simulation finished
+189,s,0.013
+189,w,1.687
+Run 189 finished! <------------------------------------------
+191,c,0.001
+Starting simulation.
+Simulation finished
+190,s,0.004
+190,w,1.555
+Run 190 finished! <------------------------------------------
+192,c,0.0
+Starting simulation.
+Simulation finished
+191,s,0.011
+191,w,1.416
+Run 191 finished! <------------------------------------------
+193,c,0.001
+Starting simulation.
+Simulation finished
+192,s,0.01
+192,w,1.548
+Run 192 finished! <------------------------------------------
+194,c,0.001
+Starting simulation.
+Simulation finished
+193,s,0.005
+193,w,1.404
+Run 193 finished! <------------------------------------------
+195,c,0.001
+Starting simulation.
+Simulation finished
+194,s,0.007
+194,w,1.315
+Run 194 finished! <------------------------------------------
+196,c,0.001
+Starting simulation.
+Simulation finished
+195,s,0.006
+195,w,1.373
+Run 195 finished! <------------------------------------------
+197,c,0.001
+Starting simulation.
+Simulation finished
+196,s,0.004
+196,w,1.341
+Run 196 finished! <------------------------------------------
+198,c,0.001
+Starting simulation.
+Simulation finished
+197,s,0.008
+197,w,1.311
+Run 197 finished! <------------------------------------------
+199,c,0.002
+Starting simulation.
+Simulation finished
+198,s,0.007
+198,w,1.401
+Run 198 finished! <------------------------------------------
+200,c,0.001
+Starting simulation.
+Simulation finished
+199,s,0.029
+199,w,1.393
+Run 199 finished! <------------------------------------------
+201,c,0.001
+Starting simulation.
+Simulation finished
+200,s,0.008
+200,w,1.321
+Run 200 finished! <------------------------------------------
+202,c,0.001
+Starting simulation.
+Simulation finished
+201,s,0.009
+201,w,1.555
+Run 201 finished! <------------------------------------------
+203,c,0.001
+Starting simulation.
+Simulation finished
+202,s,0.011
+202,w,1.717
+Run 202 finished! <------------------------------------------
+204,c,0.001
+Starting simulation.
+Simulation finished
+203,s,0.007
+203,w,1.539
+Run 203 finished! <------------------------------------------
+205,c,0.001
+Starting simulation.
+Simulation finished
+204,s,0.008
+204,w,1.394
+Run 204 finished! <------------------------------------------
+206,c,0.001
+Starting simulation.
+Simulation finished
+205,s,0.009
+205,w,1.513
+Run 205 finished! <------------------------------------------
+207,c,0.001
+Starting simulation.
+Simulation finished
+206,s,0.016
+206,w,1.518
+Run 206 finished! <------------------------------------------
+208,c,0.001
+Starting simulation.
+Simulation finished
+207,s,0.007
+207,w,1.516
+Run 207 finished! <------------------------------------------
+209,c,0.001
+Starting simulation.
+Simulation finished
+208,s,0.008
+208,w,1.539
+Run 208 finished! <------------------------------------------
+210,c,0.0
+Starting simulation.
+Simulation finished
+209,s,0.008
+209,w,1.401
+Run 209 finished! <------------------------------------------
+211,c,0.0
+Starting simulation.
+Simulation finished
+210,s,0.007
+210,w,1.777
+Run 210 finished! <------------------------------------------
+212,c,0.001
+Starting simulation.
+Simulation finished
+211,s,0.01
+211,w,1.87
+Run 211 finished! <------------------------------------------
+213,c,0.001
+Starting simulation.
+Simulation finished
+212,s,0.011
+212,w,1.538
+Run 212 finished! <------------------------------------------
+214,c,0.001
+Starting simulation.
+Simulation finished
+213,s,0.009
+213,w,1.609
+Run 213 finished! <------------------------------------------
+215,c,0.001
+Starting simulation.
+Simulation finished
+214,s,0.007
+214,w,1.723
+Run 214 finished! <------------------------------------------
+216,c,0.001
+Starting simulation.
+Simulation finished
+215,s,0.008
+215,w,1.733
+Run 215 finished! <------------------------------------------
+217,c,0.001
+Starting simulation.
+Simulation finished
+216,s,0.009
+216,w,1.618
+Run 216 finished! <------------------------------------------
+218,c,0.0
+Starting simulation.
+Simulation finished
+217,s,0.01
+217,w,1.639
+Run 217 finished! <------------------------------------------
+219,c,0.001
+Starting simulation.
+Simulation finished
+218,s,0.006
+218,w,1.714
+Run 218 finished! <------------------------------------------
+220,c,0.001
+Starting simulation.
+Simulation finished
+219,s,0.007
+219,w,1.551
+Run 219 finished! <------------------------------------------
+221,c,0.001
+Starting simulation.
+Simulation finished
+220,s,0.011
+220,w,1.646
+Run 220 finished! <------------------------------------------
+222,c,0.001
+Starting simulation.
+Simulation finished
+221,s,0.007
+221,w,1.844
+Run 221 finished! <------------------------------------------
+223,c,0.001
+Starting simulation.
+Simulation finished
+222,s,0.007
+222,w,1.781
+Run 222 finished! <------------------------------------------
+224,c,0.001
+Starting simulation.
+Simulation finished
+223,s,0.007
+223,w,1.798
+Run 223 finished! <------------------------------------------
+225,c,0.001
+Starting simulation.
+Simulation finished
+224,s,0.017
+224,w,1.726
+Run 224 finished! <------------------------------------------
+226,c,0.001
+Starting simulation.
+Simulation finished
+225,s,0.008
+225,w,1.711
+Run 225 finished! <------------------------------------------
+227,c,0.002
+Starting simulation.
+Simulation finished
+226,s,0.005
+226,w,1.785
+Run 226 finished! <------------------------------------------
+228,c,0.001
+Starting simulation.
+Simulation finished
+227,s,0.018
+227,w,1.554
+Run 227 finished! <------------------------------------------
+229,c,0.001
+Starting simulation.
+Simulation finished
+228,s,0.009
+228,w,1.605
+Run 228 finished! <------------------------------------------
+230,c,0.001
+Starting simulation.
+Simulation finished
+229,s,0.007
+229,w,1.778
+Run 229 finished! <------------------------------------------
+231,c,0.0
+Starting simulation.
+Simulation finished
+230,s,0.007
+230,w,1.726
+Run 230 finished! <------------------------------------------
+232,c,0.001
+Starting simulation.
+Simulation finished
+231,s,0.022
+231,w,1.644
+Run 231 finished! <------------------------------------------
+233,c,0.002
+Starting simulation.
+Simulation finished
+232,s,0.016
+232,w,1.769
+Run 232 finished! <------------------------------------------
+234,c,0.001
+Starting simulation.
+Simulation finished
+233,s,0.013
+233,w,1.924
+Run 233 finished! <------------------------------------------
+235,c,0.0
+Starting simulation.
+Simulation finished
+234,s,0.017
+234,w,2.027
+Run 234 finished! <------------------------------------------
+236,c,0.001
+Starting simulation.
+Simulation finished
+235,s,0.01
+235,w,1.93
+Run 235 finished! <------------------------------------------
+237,c,0.001
+Starting simulation.
+Simulation finished
+236,s,0.005
+236,w,1.761
+Run 236 finished! <------------------------------------------
+238,c,0.001
+Starting simulation.
+Simulation finished
+237,s,0.016
+237,w,1.652
+Run 237 finished! <------------------------------------------
+239,c,0.0
+Starting simulation.
+Simulation finished
+238,s,0.007
+238,w,1.549
+Run 238 finished! <------------------------------------------
+240,c,0.001
+Starting simulation.
+Simulation finished
+239,s,0.004
+239,w,1.524
+Run 239 finished! <------------------------------------------
+241,c,0.001
+Starting simulation.
+Simulation finished
+240,s,0.012
+240,w,1.477
+Run 240 finished! <------------------------------------------
+242,c,0.001
+Starting simulation.
+Simulation finished
+241,s,0.007
+241,w,1.497
+Run 241 finished! <------------------------------------------
+243,c,0.001
+Starting simulation.
+Simulation finished
+242,s,0.006
+242,w,1.507
+Run 242 finished! <------------------------------------------
+244,c,0.001
+Starting simulation.
+Simulation finished
+243,s,0.005
+243,w,1.534
+Run 243 finished! <------------------------------------------
+245,c,0.001
+Starting simulation.
+Simulation finished
+244,s,0.005
+244,w,1.565
+Run 244 finished! <------------------------------------------
+246,c,0.001
+Starting simulation.
+Simulation finished
+245,s,0.01
+245,w,1.629
+Run 245 finished! <------------------------------------------
+247,c,0.001
+Starting simulation.
+Simulation finished
+246,s,0.007
+246,w,1.56
+Run 246 finished! <------------------------------------------
+248,c,0.001
+Starting simulation.
+Simulation finished
+247,s,0.005
+247,w,1.328
+Run 247 finished! <------------------------------------------
+249,c,0.001
+Starting simulation.
+Simulation finished
+248,s,0.007
+248,w,1.339
+Run 248 finished! <------------------------------------------
+250,c,0.001
+Starting simulation.
+Simulation finished
+249,s,0.005
+249,w,1.417
+Run 249 finished! <------------------------------------------
+251,c,0.001
+Starting simulation.
+Simulation finished
+250,s,0.005
+250,w,1.337
+Run 250 finished! <------------------------------------------
+252,c,0.001
+Starting simulation.
+Simulation finished
+251,s,0.015
+251,w,1.351
+Run 251 finished! <------------------------------------------
+253,c,0.001
+Starting simulation.
+Simulation finished
+252,s,0.01
+252,w,1.328
+Run 252 finished! <------------------------------------------
+254,c,0.001
+Starting simulation.
+Simulation finished
+253,s,0.007
+253,w,1.304
+Run 253 finished! <------------------------------------------
+255,c,0.001
+Starting simulation.
+Simulation finished
+254,s,0.005
+254,w,1.391
+Run 254 finished! <------------------------------------------
+256,c,0.001
+Starting simulation.
+Simulation finished
+255,s,0.007
+255,w,1.363
+Run 255 finished! <------------------------------------------
+257,c,0.001
+Starting simulation.
+Simulation finished
+256,s,0.005
+256,w,1.457
+Run 256 finished! <------------------------------------------
+258,c,0.0
+Starting simulation.
+Simulation finished
+257,s,0.005
+257,w,1.472
+Run 257 finished! <------------------------------------------
+259,c,0.001
+Starting simulation.
+Simulation finished
+258,s,0.006
+258,w,1.341
+Run 258 finished! <------------------------------------------
+260,c,0.001
+Starting simulation.
+Simulation finished
+259,s,0.006
+259,w,1.272
+Run 259 finished! <------------------------------------------
+261,c,0.001
+Starting simulation.
+Simulation finished
+260,s,0.006
+260,w,1.37
+Run 260 finished! <------------------------------------------
+262,c,0.001
+Starting simulation.
+Simulation finished
+261,s,0.005
+261,w,1.443
+Run 261 finished! <------------------------------------------
+263,c,0.001
+Starting simulation.
+Simulation finished
+262,s,0.018
+262,w,1.384
+Run 262 finished! <------------------------------------------
+264,c,0.001
+Starting simulation.
+Simulation finished
+263,s,0.022
+263,w,1.341
+Run 263 finished! <------------------------------------------
+265,c,0.0
+Starting simulation.
+Simulation finished
+264,s,0.005
+264,w,1.316
+Run 264 finished! <------------------------------------------
+266,c,0.0
+Starting simulation.
+Simulation finished
+265,s,0.004
+265,w,1.441
+Run 265 finished! <------------------------------------------
+267,c,0.001
+Starting simulation.
+Simulation finished
+266,s,0.009
+266,w,1.394
+Run 266 finished! <------------------------------------------
+268,c,0.001
+Starting simulation.
+Simulation finished
+267,s,0.005
+267,w,1.308
+Run 267 finished! <------------------------------------------
+269,c,0.001
+Starting simulation.
+Simulation finished
+268,s,0.005
+268,w,1.321
+Run 268 finished! <------------------------------------------
+270,c,0.001
+Starting simulation.
+Simulation finished
+269,s,0.004
+269,w,1.316
+Run 269 finished! <------------------------------------------
+271,c,0.0
+Starting simulation.
+Simulation finished
+270,s,0.007
+270,w,1.378
+Run 270 finished! <------------------------------------------
+272,c,0.001
+Starting simulation.
+Simulation finished
+271,s,0.021
+271,w,1.316
+Run 271 finished! <------------------------------------------
+273,c,0.001
+Starting simulation.
+Simulation finished
+272,s,0.006
+272,w,1.307
+Run 272 finished! <------------------------------------------
+274,c,0.001
+Starting simulation.
+Simulation finished
+273,s,0.005
+273,w,1.341
+Run 273 finished! <------------------------------------------
+275,c,0.001
+Starting simulation.
+Simulation finished
+274,s,0.005
+274,w,1.385
+Run 274 finished! <------------------------------------------
+276,c,0.001
+Starting simulation.
+Simulation finished
+275,s,0.004
+275,w,1.468
+Run 275 finished! <------------------------------------------
+277,c,0.0
+Starting simulation.
+Simulation finished
+276,s,0.006
+276,w,1.619
+Run 276 finished! <------------------------------------------
+278,c,0.001
+Starting simulation.
+Simulation finished
+277,s,0.009
+277,w,1.71
+Run 277 finished! <------------------------------------------
+279,c,0.002
+Starting simulation.
+Simulation finished
+278,s,0.014
+278,w,1.64
+Run 278 finished! <------------------------------------------
+280,c,0.001
+Starting simulation.
+Simulation finished
+279,s,0.008
+279,w,1.627
+Run 279 finished! <------------------------------------------
+281,c,0.001
+Starting simulation.
+Simulation finished
+280,s,0.005
+280,w,1.692
+Run 280 finished! <------------------------------------------
+282,c,0.001
+Starting simulation.
+Simulation finished
+281,s,0.017
+281,w,1.659
+Run 281 finished! <------------------------------------------
+283,c,0.003
+Starting simulation.
+Simulation finished
+282,s,0.019
+282,w,1.625
+Run 282 finished! <------------------------------------------
+284,c,0.0
+Starting simulation.
+Simulation finished
+283,s,0.005
+283,w,1.582
+Run 283 finished! <------------------------------------------
+285,c,0.0
+Starting simulation.
+Simulation finished
+284,s,0.006
+284,w,1.5
+Run 284 finished! <------------------------------------------
+286,c,0.001
+Starting simulation.
+Simulation finished
+285,s,0.007
+285,w,1.569
+Run 285 finished! <------------------------------------------
+287,c,0.0
+Starting simulation.
+Simulation finished
+286,s,0.006
+286,w,1.652
+Run 286 finished! <------------------------------------------
+288,c,0.002
+Starting simulation.
+Simulation finished
+287,s,0.004
+287,w,1.573
+Run 287 finished! <------------------------------------------
+289,c,0.0
+Starting simulation.
+Simulation finished
+288,s,0.025
+288,w,1.554
+Run 288 finished! <------------------------------------------
+290,c,0.001
+Starting simulation.
+Simulation finished
+289,s,0.016
+289,w,1.588
+Run 289 finished! <------------------------------------------
+291,c,0.001
+Starting simulation.
+Simulation finished
+290,s,0.033
+290,w,1.614
+Run 290 finished! <------------------------------------------
+292,c,0.001
+Starting simulation.
+Simulation finished
+291,s,0.011
+291,w,1.452
+Run 291 finished! <------------------------------------------
+293,c,0.001
+Starting simulation.
+Simulation finished
+292,s,0.027
+292,w,1.254
+Run 292 finished! <------------------------------------------
+294,c,0.001
+Starting simulation.
+Simulation finished
+293,s,0.005
+293,w,1.235
+Run 293 finished! <------------------------------------------
+295,c,0.001
+Starting simulation.
+Simulation finished
+294,s,0.005
+294,w,1.322
+Run 294 finished! <------------------------------------------
+296,c,0.001
+Starting simulation.
+Simulation finished
+295,s,0.006
+295,w,1.402
+Run 295 finished! <------------------------------------------
+297,c,0.001
+Starting simulation.
+Simulation finished
+296,s,0.005
+296,w,1.29
+Run 296 finished! <------------------------------------------
+298,c,0.001
+Starting simulation.
+Simulation finished
+297,s,0.006
+297,w,1.398
+Run 297 finished! <------------------------------------------
+299,c,0.001
+Starting simulation.
+Simulation finished
+298,s,0.006
+298,w,1.612
+Run 298 finished! <------------------------------------------
+300,c,0.0
+Starting simulation.
+Simulation finished
+299,s,0.009
+299,w,1.66
+Run 299 finished! <------------------------------------------
+301,c,0.001
+Starting simulation.
+Simulation finished
+300,s,0.007
+300,w,1.535
+Run 300 finished! <------------------------------------------
+302,c,0.001
+Starting simulation.
+Simulation finished
+301,s,0.009
+301,w,1.507
+Run 301 finished! <------------------------------------------
+303,c,0.001
+Starting simulation.
+Simulation finished
+302,s,0.036
+302,w,1.611
+Run 302 finished! <------------------------------------------
+304,c,0.001
+Starting simulation.
+Simulation finished
+303,s,0.007
+303,w,1.677
+Run 303 finished! <------------------------------------------
+305,c,0.001
+Starting simulation.
+Simulation finished
+304,s,0.007
+304,w,1.586
+Run 304 finished! <------------------------------------------
+306,c,0.001
+Starting simulation.
+Simulation finished
+305,s,0.011
+305,w,1.519
+Run 305 finished! <------------------------------------------
+307,c,0.001
+Starting simulation.
+Simulation finished
+306,s,0.014
+306,w,1.621
+Run 306 finished! <------------------------------------------
+308,c,0.001
+Starting simulation.
+Simulation finished
+307,s,0.005
+307,w,1.63
+Run 307 finished! <------------------------------------------
+309,c,0.0
+Starting simulation.
+Simulation finished
+308,s,0.017
+308,w,1.421
+Run 308 finished! <------------------------------------------
+310,c,0.001
+Starting simulation.
+Simulation finished
+309,s,0.008
+309,w,1.508
+Run 309 finished! <------------------------------------------
+311,c,0.001
+Starting simulation.
+Simulation finished
+310,s,0.01
+310,w,1.615
+Run 310 finished! <------------------------------------------
+312,c,0.001
+Starting simulation.
+Simulation finished
+311,s,0.005
+311,w,1.597
+Run 311 finished! <------------------------------------------
+313,c,0.001
+Starting simulation.
+Simulation finished
+312,s,0.008
+312,w,1.666
+Run 312 finished! <------------------------------------------
+314,c,0.001
+Starting simulation.
+Simulation finished
+313,s,0.005
+313,w,1.582
+Run 313 finished! <------------------------------------------
+315,c,0.001
+Starting simulation.
+Simulation finished
+314,s,0.007
+314,w,1.546
+Run 314 finished! <------------------------------------------
+316,c,0.001
+Starting simulation.
+Simulation finished
+315,s,0.007
+315,w,1.613
+Run 315 finished! <------------------------------------------
+317,c,0.001
+Starting simulation.
+Simulation finished
+316,s,0.032
+316,w,1.631
+Run 316 finished! <------------------------------------------
+318,c,0.001
+Starting simulation.
+Simulation finished
+317,s,0.025
+317,w,1.742
+Run 317 finished! <------------------------------------------
+319,c,0.001
+Starting simulation.
+Simulation finished
+318,s,0.012
+318,w,1.663
+Run 318 finished! <------------------------------------------
+320,c,0.001
+Starting simulation.
+Simulation finished
+319,s,0.016
+319,w,1.523
+Run 319 finished! <------------------------------------------
+321,c,0.001
+Starting simulation.
+Simulation finished
+320,s,0.004
+320,w,1.668
+Run 320 finished! <------------------------------------------
+322,c,0.001
+Starting simulation.
+Simulation finished
+321,s,0.007
+321,w,1.78
+Run 321 finished! <------------------------------------------
+323,c,0.001
+Starting simulation.
+Simulation finished
+322,s,0.03
+322,w,1.692
+Run 322 finished! <------------------------------------------
+324,c,0.0
+Starting simulation.
+Simulation finished
+323,s,0.008
+323,w,1.673
+Run 323 finished! <------------------------------------------
+325,c,0.001
+Starting simulation.
+Simulation finished
+324,s,0.007
+324,w,1.585
+Run 324 finished! <------------------------------------------
+326,c,0.001
+Starting simulation.
+Simulation finished
+325,s,0.013
+325,w,1.377
+Run 325 finished! <------------------------------------------
+327,c,0.001
+Starting simulation.
+Simulation finished
+326,s,0.006
+326,w,1.413
+Run 326 finished! <------------------------------------------
+328,c,0.0
+Starting simulation.
+Simulation finished
+327,s,0.008
+327,w,1.399
+Run 327 finished! <------------------------------------------
+329,c,0.001
+Starting simulation.
+Simulation finished
+328,s,0.009
+328,w,1.362
+Run 328 finished! <------------------------------------------
+330,c,0.0
+Starting simulation.
+Simulation finished
+329,s,0.006
+329,w,1.519
+Run 329 finished! <------------------------------------------
+331,c,0.0
+Starting simulation.
+Simulation finished
+330,s,0.007
+330,w,1.424
+Run 330 finished! <------------------------------------------
+332,c,0.001
+Starting simulation.
+Simulation finished
+331,s,0.018
+331,w,1.271
+Run 331 finished! <------------------------------------------
+333,c,0.001
+Starting simulation.
+Simulation finished
+332,s,0.006
+332,w,1.318
+Run 332 finished! <------------------------------------------
+334,c,0.001
+Starting simulation.
+Simulation finished
+333,s,0.006
+333,w,1.322
+Run 333 finished! <------------------------------------------
+335,c,0.001
+Starting simulation.
+Simulation finished
+334,s,0.006
+334,w,1.34
+Run 334 finished! <------------------------------------------
+336,c,0.001
+Starting simulation.
+Simulation finished
+335,s,0.008
+335,w,1.377
+Run 335 finished! <------------------------------------------
+337,c,0.001
+Starting simulation.
+Simulation finished
+336,s,0.005
+336,w,1.404
+Run 336 finished! <------------------------------------------
+338,c,0.001
+Starting simulation.
+Simulation finished
+337,s,0.005
+337,w,1.347
+Run 337 finished! <------------------------------------------
+339,c,0.001
+Starting simulation.
+Simulation finished
+338,s,0.005
+338,w,1.333
+Run 338 finished! <------------------------------------------
+340,c,0.001
+Starting simulation.
+Simulation finished
+339,s,0.005
+339,w,1.388
+Run 339 finished! <------------------------------------------
+341,c,0.001
+Starting simulation.
+Simulation finished
+340,s,0.012
+340,w,1.473
+Run 340 finished! <------------------------------------------
+342,c,0.001
+Starting simulation.
+Simulation finished
+341,s,0.016
+341,w,1.453
+Run 341 finished! <------------------------------------------
+343,c,0.0
+Starting simulation.
+Simulation finished
+342,s,0.008
+342,w,1.373
+Run 342 finished! <------------------------------------------
+344,c,0.001
+Starting simulation.
+Simulation finished
+343,s,0.014
+343,w,1.328
+Run 343 finished! <------------------------------------------
+345,c,0.0
+Starting simulation.
+Simulation finished
+344,s,0.004
+344,w,1.27
+Run 344 finished! <------------------------------------------
+346,c,0.001
+Starting simulation.
+Simulation finished
+345,s,0.005
+345,w,1.293
+Run 345 finished! <------------------------------------------
+347,c,0.001
+Starting simulation.
+Simulation finished
+346,s,0.005
+346,w,1.353
+Run 346 finished! <------------------------------------------
+348,c,0.001
+Starting simulation.
+Simulation finished
+347,s,0.012
+347,w,1.35
+Run 347 finished! <------------------------------------------
+349,c,0.001
+Starting simulation.
+Simulation finished
+348,s,0.043
+348,w,1.463
+Run 348 finished! <------------------------------------------
+350,c,0.001
+Starting simulation.
+Simulation finished
+349,s,0.019
+349,w,1.441
+Run 349 finished! <------------------------------------------
+351,c,0.001
+Starting simulation.
+Simulation finished
+350,s,0.016
+350,w,1.279
+Run 350 finished! <------------------------------------------
+352,c,0.0
+Starting simulation.
+Simulation finished
+351,s,0.005
+351,w,1.356
+Run 351 finished! <------------------------------------------
+353,c,0.001
+Starting simulation.
+Simulation finished
+352,s,0.006
+352,w,1.304
+Run 352 finished! <------------------------------------------
+354,c,0.001
+Starting simulation.
+Simulation finished
+353,s,0.009
+353,w,1.278
+Run 353 finished! <------------------------------------------
+355,c,0.001
+Starting simulation.
+Simulation finished
+354,s,0.007
+354,w,1.321
+Run 354 finished! <------------------------------------------
+356,c,0.001
+Starting simulation.
+Simulation finished
+355,s,0.006
+355,w,1.407
+Run 355 finished! <------------------------------------------
+357,c,0.001
+Starting simulation.
+Simulation finished
+356,s,0.007
+356,w,1.434
+Run 356 finished! <------------------------------------------
+358,c,0.001
+Starting simulation.
+Simulation finished
+357,s,0.01
+357,w,1.328
+Run 357 finished! <------------------------------------------
+359,c,0.001
+Starting simulation.
+Simulation finished
+358,s,0.005
+358,w,1.37
+Run 358 finished! <------------------------------------------
+360,c,0.0
+Starting simulation.
+Simulation finished
+359,s,0.006
+359,w,1.406
+Run 359 finished! <------------------------------------------
+361,c,0.0
+Starting simulation.
+Simulation finished
+360,s,0.007
+360,w,1.432
+Run 360 finished! <------------------------------------------
+362,c,0.001
+Starting simulation.
+Simulation finished
+361,s,0.009
+361,w,1.529
+Run 361 finished! <------------------------------------------
+363,c,0.001
+Starting simulation.
+Simulation finished
+362,s,0.007
+362,w,1.388
+Run 362 finished! <------------------------------------------
+364,c,0.001
+Starting simulation.
+Simulation finished
+363,s,0.009
+363,w,1.309
+Run 363 finished! <------------------------------------------
+365,c,0.001
+Starting simulation.
+Simulation finished
+364,s,0.005
+364,w,1.452
+Run 364 finished! <------------------------------------------
+366,c,0.001
+Starting simulation.
+Simulation finished
+365,s,0.005
+365,w,1.446
+Run 365 finished! <------------------------------------------
+367,c,0.001
+Starting simulation.
+Simulation finished
+366,s,0.018
+366,w,1.356
+Run 366 finished! <------------------------------------------
+368,c,0.001
+Starting simulation.
+Simulation finished
+367,s,0.007
+367,w,1.369
+Run 367 finished! <------------------------------------------
+369,c,0.0
+Starting simulation.
+Simulation finished
+368,s,0.011
+368,w,1.355
+Run 368 finished! <------------------------------------------
+370,c,0.0
+Starting simulation.
+Simulation finished
+369,s,0.01
+369,w,1.469
+Run 369 finished! <------------------------------------------
+371,c,0.001
+Starting simulation.
+Simulation finished
+370,s,0.009
+370,w,1.516
+Run 370 finished! <------------------------------------------
+372,c,0.001
+Starting simulation.
+Simulation finished
+371,s,0.007
+371,w,1.354
+Run 371 finished! <------------------------------------------
+373,c,0.001
+Starting simulation.
+Simulation finished
+372,s,0.012
+372,w,1.27
+Run 372 finished! <------------------------------------------
+374,c,0.001
+Starting simulation.
+Simulation finished
+373,s,0.007
+373,w,1.442
+Run 373 finished! <------------------------------------------
+375,c,0.0
+Starting simulation.
+Simulation finished
+374,s,0.009
+374,w,1.603
+Run 374 finished! <------------------------------------------
+376,c,0.001
+Starting simulation.
+Simulation finished
+375,s,0.012
+375,w,1.566
+Run 375 finished! <------------------------------------------
+377,c,0.001
+Starting simulation.
+Simulation finished
+376,s,0.006
+376,w,1.483
+Run 376 finished! <------------------------------------------
+378,c,0.001
+Starting simulation.
+Simulation finished
+377,s,0.017
+377,w,1.39
+Run 377 finished! <------------------------------------------
+379,c,0.001
+Starting simulation.
+Simulation finished
+378,s,0.008
+378,w,1.354
+Run 378 finished! <------------------------------------------
+380,c,0.001
+Starting simulation.
+Simulation finished
+379,s,0.009
+379,w,1.381
+Run 379 finished! <------------------------------------------
+381,c,0.001
+Starting simulation.
+Simulation finished
+380,s,0.004
+380,w,1.401
+Run 380 finished! <------------------------------------------
+382,c,0.001
+Starting simulation.
+Simulation finished
+381,s,0.005
+381,w,1.349
+Run 381 finished! <------------------------------------------
+383,c,0.001
+Starting simulation.
+Simulation finished
+382,s,0.006
+382,w,1.489
+Run 382 finished! <------------------------------------------
+384,c,0.001
+Starting simulation.
+Simulation finished
+383,s,0.014
+383,w,1.729
+Run 383 finished! <------------------------------------------
+385,c,0.0
+Starting simulation.
+Simulation finished
+384,s,0.028
+384,w,1.744
+Run 384 finished! <------------------------------------------
+386,c,0.001
+Starting simulation.
+Simulation finished
+385,s,0.012
+385,w,1.639
+Run 385 finished! <------------------------------------------
+387,c,0.001
+Starting simulation.
+Simulation finished
+386,s,0.017
+386,w,1.374
+Run 386 finished! <------------------------------------------
+388,c,0.001
+Starting simulation.
+Simulation finished
+387,s,0.006
+387,w,1.231
+Run 387 finished! <------------------------------------------
+389,c,0.001
+Starting simulation.
+Simulation finished
+388,s,0.005
+388,w,1.534
+Run 388 finished! <------------------------------------------
+390,c,0.001
+Starting simulation.
+Simulation finished
+389,s,0.006
+389,w,1.878
+Run 389 finished! <------------------------------------------
+391,c,0.001
+Starting simulation.
+Simulation finished
+390,s,0.009
+390,w,1.676
+Run 390 finished! <------------------------------------------
+392,c,0.001
+Starting simulation.
+Simulation finished
+391,s,0.005
+391,w,1.456
+Run 391 finished! <------------------------------------------
+393,c,0.001
+Starting simulation.
+Simulation finished
+392,s,0.009
+392,w,1.441
+Run 392 finished! <------------------------------------------
+394,c,0.001
+Starting simulation.
+Simulation finished
+393,s,0.009
+393,w,1.344
+Run 393 finished! <------------------------------------------
+395,c,0.001
+Starting simulation.
+Simulation finished
+394,s,0.004
+394,w,1.371
+Run 394 finished! <------------------------------------------
+396,c,0.001
+Starting simulation.
+Simulation finished
+395,s,0.005
+395,w,1.4
+Run 395 finished! <------------------------------------------
+397,c,0.001
+Starting simulation.
+Simulation finished
+396,s,0.009
+396,w,1.426
+Run 396 finished! <------------------------------------------
+398,c,0.001
+Starting simulation.
+Simulation finished
+397,s,0.008
+397,w,1.507
+Run 397 finished! <------------------------------------------
+399,c,0.001
+Starting simulation.
+Simulation finished
+398,s,0.006
+398,w,1.481
+Run 398 finished! <------------------------------------------
+400,c,0.001
+Starting simulation.
+Simulation finished
+399,s,0.006
+399,w,1.41
+Run 399 finished! <------------------------------------------
+401,c,0.001
+Starting simulation.
+Simulation finished
+400,s,0.011
+400,w,1.425
+Run 400 finished! <------------------------------------------
+402,c,0.001
+Starting simulation.
+Simulation finished
+401,s,0.005
+401,w,1.624
+Run 401 finished! <------------------------------------------
+403,c,0.001
+Starting simulation.
+Simulation finished
+402,s,0.007
+402,w,1.806
+Run 402 finished! <------------------------------------------
+404,c,0.001
+Starting simulation.
+Simulation finished
+403,s,0.029
+403,w,1.828
+Run 403 finished! <------------------------------------------
+405,c,0.001
+Starting simulation.
+Simulation finished
+404,s,0.02
+404,w,1.821
+Run 404 finished! <------------------------------------------
+406,c,0.001
+Starting simulation.
+Simulation finished
+405,s,0.009
+405,w,1.709
+Run 405 finished! <------------------------------------------
+407,c,0.001
+Starting simulation.
+Simulation finished
+406,s,0.006
+406,w,1.635
+Run 406 finished! <------------------------------------------
+408,c,0.001
+Starting simulation.
+Simulation finished
+407,s,0.01
+407,w,1.683
+Run 407 finished! <------------------------------------------
+409,c,0.005
+Starting simulation.
+Simulation finished
+408,s,0.024
+408,w,1.688
+Run 408 finished! <------------------------------------------
+410,c,0.001
+Starting simulation.
+Simulation finished
+409,s,0.017
+409,w,1.504
+Run 409 finished! <------------------------------------------
+411,c,0.001
+Starting simulation.
+Simulation finished
+410,s,0.009
+410,w,1.532
+Run 410 finished! <------------------------------------------
+412,c,0.001
+Starting simulation.
+Simulation finished
+411,s,0.007
+411,w,1.683
+Run 411 finished! <------------------------------------------
+413,c,0.001
+Starting simulation.
+Simulation finished
+412,s,0.012
+412,w,1.552
+Run 412 finished! <------------------------------------------
+414,c,0.001
+Starting simulation.
+Simulation finished
+413,s,0.009
+413,w,1.365
+Run 413 finished! <------------------------------------------
+415,c,0.001
+Starting simulation.
+Simulation finished
+414,s,0.011
+414,w,1.355
+Run 414 finished! <------------------------------------------
+416,c,0.001
+Starting simulation.
+Simulation finished
+415,s,0.005
+415,w,1.472
+Run 415 finished! <------------------------------------------
+417,c,0.0
+Starting simulation.
+Simulation finished
+416,s,0.008
+416,w,1.559
+Run 416 finished! <------------------------------------------
+418,c,0.001
+Starting simulation.
+Simulation finished
+417,s,0.009
+417,w,1.637
+Run 417 finished! <------------------------------------------
+419,c,0.001
+Starting simulation.
+Simulation finished
+418,s,0.005
+418,w,1.759
+Run 418 finished! <------------------------------------------
+420,c,0.001
+Starting simulation.
+Simulation finished
+419,s,0.021
+419,w,1.856
+Run 419 finished! <------------------------------------------
+421,c,0.001
+Starting simulation.
+Simulation finished
+420,s,0.005
+420,w,1.693
+Run 420 finished! <------------------------------------------
+422,c,0.001
+Starting simulation.
+Simulation finished
+421,s,0.009
+421,w,1.412
+Run 421 finished! <------------------------------------------
+423,c,0.0
+Starting simulation.
+Simulation finished
+422,s,0.006
+422,w,1.521
+Run 422 finished! <------------------------------------------
+424,c,0.002
+Starting simulation.
+Simulation finished
+423,s,0.007
+423,w,1.644
+Run 423 finished! <------------------------------------------
+425,c,0.001
+Starting simulation.
+Simulation finished
+424,s,0.005
+424,w,1.504
+Run 424 finished! <------------------------------------------
+426,c,0.001
+Starting simulation.
+Simulation finished
+425,s,0.005
+425,w,1.448
+Run 425 finished! <------------------------------------------
+427,c,0.001
+Starting simulation.
+Simulation finished
+426,s,0.011
+426,w,1.502
+Run 426 finished! <------------------------------------------
+428,c,0.001
+Starting simulation.
+Simulation finished
+427,s,0.014
+427,w,1.696
+Run 427 finished! <------------------------------------------
+429,c,0.001
+Starting simulation.
+Simulation finished
+428,s,0.01
+428,w,1.688
+Run 428 finished! <------------------------------------------
+430,c,0.001
+Starting simulation.
+Simulation finished
+429,s,0.032
+429,w,1.618
+Run 429 finished! <------------------------------------------
+431,c,0.001
+Starting simulation.
+Simulation finished
+430,s,0.007
+430,w,1.69
+Run 430 finished! <------------------------------------------
+432,c,0.001
+Starting simulation.
+Simulation finished
+431,s,0.007
+431,w,1.515
+Run 431 finished! <------------------------------------------
+433,c,0.001
+Starting simulation.
+Simulation finished
+432,s,0.016
+432,w,1.386
+Run 432 finished! <------------------------------------------
+434,c,0.0
+Starting simulation.
+Simulation finished
+433,s,0.006
+433,w,1.393
+Run 433 finished! <------------------------------------------
+435,c,0.001
+Starting simulation.
+Simulation finished
+434,s,0.006
+434,w,1.402
+Run 434 finished! <------------------------------------------
+436,c,0.001
+Starting simulation.
+Simulation finished
+435,s,0.008
+435,w,1.459
+Run 435 finished! <------------------------------------------
+437,c,0.001
+Starting simulation.
+Simulation finished
+436,s,0.005
+436,w,1.435
+Run 436 finished! <------------------------------------------
+438,c,0.001
+Starting simulation.
+Simulation finished
+437,s,0.007
+437,w,1.366
+Run 437 finished! <------------------------------------------
+439,c,0.001
+Starting simulation.
+Simulation finished
+438,s,0.006
+438,w,1.379
+Run 438 finished! <------------------------------------------
+440,c,0.0
+Starting simulation.
+Simulation finished
+439,s,0.009
+439,w,1.339
+Run 439 finished! <------------------------------------------
+441,c,0.0
+Starting simulation.
+Simulation finished
+440,s,0.005
+440,w,1.319
+Run 440 finished! <------------------------------------------
+442,c,0.001
+Starting simulation.
+Simulation finished
+441,s,0.006
+441,w,1.345
+Run 441 finished! <------------------------------------------
+443,c,0.001
+Starting simulation.
+Simulation finished
+442,s,0.007
+442,w,1.297
+Run 442 finished! <------------------------------------------
+444,c,0.001
+Starting simulation.
+Simulation finished
+443,s,0.009
+443,w,1.369
+Run 443 finished! <------------------------------------------
+445,c,0.001
+Starting simulation.
+Simulation finished
+444,s,0.034
+444,w,1.388
+Run 444 finished! <------------------------------------------
+446,c,0.001
+Starting simulation.
+Simulation finished
+445,s,0.006
+445,w,1.284
+Run 445 finished! <------------------------------------------
+447,c,0.0
+Starting simulation.
+Simulation finished
+446,s,0.005
+446,w,1.284
+Run 446 finished! <------------------------------------------
+448,c,0.001
+Starting simulation.
+Simulation finished
+447,s,0.046
+447,w,1.403
+Run 447 finished! <------------------------------------------
+449,c,0.001
+Starting simulation.
+Simulation finished
+448,s,0.013
+448,w,1.525
+Run 448 finished! <------------------------------------------
+450,c,0.0
+Starting simulation.
+Simulation finished
+449,s,0.012
+449,w,1.394
+Run 449 finished! <------------------------------------------
+451,c,0.001
+Starting simulation.
+Simulation finished
+450,s,0.005
+450,w,1.39
+Run 450 finished! <------------------------------------------
+452,c,0.001
+Starting simulation.
+Simulation finished
+451,s,0.007
+451,w,1.472
+Run 451 finished! <------------------------------------------
+453,c,0.0
+Starting simulation.
+Simulation finished
+452,s,0.005
+452,w,1.403
+Run 452 finished! <------------------------------------------
+454,c,0.001
+Starting simulation.
+Simulation finished
+453,s,0.008
+453,w,1.42
+Run 453 finished! <------------------------------------------
+455,c,0.0
+Starting simulation.
+Simulation finished
+454,s,0.015
+454,w,1.439
+Run 454 finished! <------------------------------------------
+456,c,0.001
+Starting simulation.
+Simulation finished
+455,s,0.007
+455,w,1.293
+Run 455 finished! <------------------------------------------
+457,c,0.001
+Starting simulation.
+Simulation finished
+456,s,0.006
+456,w,1.285
+Run 456 finished! <------------------------------------------
+458,c,0.001
+Starting simulation.
+Simulation finished
+457,s,0.006
+457,w,1.317
+Run 457 finished! <------------------------------------------
+459,c,0.001
+Starting simulation.
+Simulation finished
+458,s,0.005
+458,w,1.252
+Run 458 finished! <------------------------------------------
+460,c,0.0
+Starting simulation.
+Simulation finished
+459,s,0.012
+459,w,1.353
+Run 459 finished! <------------------------------------------
+461,c,0.001
+Starting simulation.
+Simulation finished
+460,s,0.005
+460,w,1.406
+Run 460 finished! <------------------------------------------
+462,c,0.001
+Starting simulation.
+Simulation finished
+461,s,0.009
+461,w,1.358
+Run 461 finished! <------------------------------------------
+463,c,0.001
+Starting simulation.
+Simulation finished
+462,s,0.007
+462,w,1.46
+Run 462 finished! <------------------------------------------
+464,c,0.0
+Starting simulation.
+Simulation finished
+463,s,0.006
+463,w,1.566
+Run 463 finished! <------------------------------------------
+465,c,0.001
+Starting simulation.
+Simulation finished
+464,s,0.006
+464,w,1.513
+Run 464 finished! <------------------------------------------
+466,c,0.0
+Starting simulation.
+Simulation finished
+465,s,0.009
+465,w,1.599
+Run 465 finished! <------------------------------------------
+467,c,0.001
+Starting simulation.
+Simulation finished
+466,s,0.009
+466,w,1.629
+Run 466 finished! <------------------------------------------
+468,c,0.001
+Starting simulation.
+Simulation finished
+467,s,0.029
+467,w,1.369
+Run 467 finished! <------------------------------------------
+469,c,0.0
+Starting simulation.
+Simulation finished
+468,s,0.007
+468,w,1.403
+Run 468 finished! <------------------------------------------
+470,c,0.001
+Starting simulation.
+Simulation finished
+469,s,0.01
+469,w,1.395
+Run 469 finished! <------------------------------------------
+471,c,0.001
+Starting simulation.
+Simulation finished
+470,s,0.004
+470,w,1.387
+Run 470 finished! <------------------------------------------
+472,c,0.001
+Starting simulation.
+Simulation finished
+471,s,0.018
+471,w,1.466
+Run 471 finished! <------------------------------------------
+473,c,0.001
+Starting simulation.
+Simulation finished
+472,s,0.027
+472,w,1.31
+Run 472 finished! <------------------------------------------
+474,c,0.0
+Starting simulation.
+Simulation finished
+473,s,0.008
+473,w,1.217
+Run 473 finished! <------------------------------------------
+475,c,0.001
+Starting simulation.
+Simulation finished
+474,s,0.005
+474,w,1.279
+Run 474 finished! <------------------------------------------
+476,c,0.001
+Starting simulation.
+Simulation finished
+475,s,0.009
+475,w,1.288
+Run 475 finished! <------------------------------------------
+477,c,0.0
+Starting simulation.
+Simulation finished
+476,s,0.009
+476,w,1.403
+Run 476 finished! <------------------------------------------
+478,c,0.001
+Starting simulation.
+Simulation finished
+477,s,0.004
+477,w,1.505
+Run 477 finished! <------------------------------------------
+479,c,0.0
+Starting simulation.
+Simulation finished
+478,s,0.028
+478,w,1.386
+Run 478 finished! <------------------------------------------
+480,c,0.001
+Starting simulation.
+Simulation finished
+479,s,0.009
+479,w,1.341
+Run 479 finished! <------------------------------------------
+481,c,0.001
+Starting simulation.
+Simulation finished
+480,s,0.007
+480,w,1.275
+Run 480 finished! <------------------------------------------
+482,c,0.0
+Starting simulation.
+Simulation finished
+481,s,0.007
+481,w,1.28
+Run 481 finished! <------------------------------------------
+483,c,0.001
+Starting simulation.
+Simulation finished
+482,s,0.004
+482,w,1.32
+Run 482 finished! <------------------------------------------
+484,c,0.001
+Starting simulation.
+Simulation finished
+483,s,0.005
+483,w,1.254
+Run 483 finished! <------------------------------------------
+485,c,0.001
+Starting simulation.
+Simulation finished
+484,s,0.004
+484,w,1.34
+Run 484 finished! <------------------------------------------
+486,c,0.0
+Starting simulation.
+Simulation finished
+485,s,0.005
+485,w,1.446
+Run 485 finished! <------------------------------------------
+487,c,0.0
+Starting simulation.
+Simulation finished
+486,s,0.008
+486,w,1.314
+Run 486 finished! <------------------------------------------
+488,c,0.001
+Starting simulation.
+Simulation finished
+487,s,0.005
+487,w,1.257
+Run 487 finished! <------------------------------------------
+489,c,0.001
+Starting simulation.
+Simulation finished
+488,s,0.006
+488,w,1.359
+Run 488 finished! <------------------------------------------
+490,c,0.001
+Starting simulation.
+Simulation finished
+489,s,0.009
+489,w,1.294
+Run 489 finished! <------------------------------------------
+491,c,0.001
+Starting simulation.
+Simulation finished
+490,s,0.006
+490,w,1.256
+Run 490 finished! <------------------------------------------
+492,c,0.001
+Starting simulation.
+Simulation finished
+491,s,0.005
+491,w,1.325
+Run 491 finished! <------------------------------------------
+493,c,0.001
+Starting simulation.
+Simulation finished
+492,s,0.006
+492,w,1.3
+Run 492 finished! <------------------------------------------
+494,c,0.001
+Starting simulation.
+Simulation finished
+493,s,0.005
+493,w,1.285
+Run 493 finished! <------------------------------------------
+495,c,0.001
+Starting simulation.
+Simulation finished
+494,s,0.009
+494,w,1.361
+Run 494 finished! <------------------------------------------
+496,c,0.001
+Starting simulation.
+Simulation finished
+495,s,0.043
+495,w,1.402
+Run 495 finished! <------------------------------------------
+497,c,0.0
+Starting simulation.
+Simulation finished
+496,s,0.021
+496,w,1.333
+Run 496 finished! <------------------------------------------
+498,c,0.001
+Starting simulation.
+Simulation finished
+497,s,0.005
+497,w,1.344
+Run 497 finished! <------------------------------------------
+499,c,0.001
+Starting simulation.
+Simulation finished
+498,s,0.059
+498,w,1.363
+Run 498 finished! <------------------------------------------
+500,c,0.001
+Starting simulation.
+Simulation finished
+499,s,0.01
+499,w,1.384
+Run 499 finished! <------------------------------------------
+501,c,0.001
+Starting simulation.
+Simulation finished
+500,s,0.009
+500,w,1.319
+Run 500 finished! <------------------------------------------
+502,c,0.001
+Starting simulation.
+Simulation finished
+501,s,0.005
+501,w,1.302
+Run 501 finished! <------------------------------------------
+503,c,0.001
+Starting simulation.
+Simulation finished
+502,s,0.005
+502,w,1.425
+Run 502 finished! <------------------------------------------
+504,c,0.0
+Starting simulation.
+Simulation finished
+503,s,0.007
+503,w,1.546
+Run 503 finished! <------------------------------------------
+505,c,0.0
+Starting simulation.
+Simulation finished
+504,s,0.005
+504,w,1.587
+Run 504 finished! <------------------------------------------
+506,c,0.0
+Starting simulation.
+Simulation finished
+505,s,0.004
+505,w,1.6
+Run 505 finished! <------------------------------------------
+507,c,0.001
+Starting simulation.
+Simulation finished
+506,s,0.006
+506,w,1.587
+Run 506 finished! <------------------------------------------
+508,c,0.0
+Starting simulation.
+Simulation finished
+507,s,0.006
+507,w,1.474
+Run 507 finished! <------------------------------------------
+509,c,0.001
+Starting simulation.
+Simulation finished
+508,s,0.004
+508,w,1.351
+Run 508 finished! <------------------------------------------
+510,c,0.001
+Starting simulation.
+Simulation finished
+509,s,0.01
+509,w,1.327
+Run 509 finished! <------------------------------------------
+511,c,0.0
+Starting simulation.
+Simulation finished
+510,s,0.007
+510,w,1.281
+Run 510 finished! <------------------------------------------
+512,c,0.001
+Starting simulation.
+Simulation finished
+511,s,0.006
+511,w,1.32
+Run 511 finished! <------------------------------------------
+513,c,0.001
+Starting simulation.
+Simulation finished
+512,s,0.011
+512,w,1.351
+Run 512 finished! <------------------------------------------
+514,c,0.001
+Starting simulation.
+Simulation finished
+513,s,0.006
+513,w,1.333
+Run 513 finished! <------------------------------------------
+515,c,0.001
+Starting simulation.
+Simulation finished
+514,s,0.019
+514,w,1.281
+Run 514 finished! <------------------------------------------
+516,c,0.001
+Starting simulation.
+Simulation finished
+515,s,0.008
+515,w,1.392
+Run 515 finished! <------------------------------------------
+516,s,0.009
+516,w,1.396
+Run 516 finished! <------------------------------------------
+Purging time: 2.475s
+Preparation time: 0.607s
+Experiment Manager time: 399.339s
+Purging time: 2.475s
+started: Apr. 18,2022 03:04
